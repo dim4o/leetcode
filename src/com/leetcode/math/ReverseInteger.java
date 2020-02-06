@@ -1,7 +1,7 @@
 // Given a 32-bit signed integer, reverse digits of an integer.
 // See: https://leetcode.com/problems/reverse-integer/
 
-package com.leetcode;
+package com.leetcode.math;
 
 import java.util.LinkedList;
 import java.util.Queue;

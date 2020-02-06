@@ -1,7 +1,7 @@
 // Implement int sqrt(int x)
 // See: https://leetcode.com/problems/sqrtx/
 
-package com.leetcode;
+package com.leetcode.math;
 
 
 public class Sqrt {

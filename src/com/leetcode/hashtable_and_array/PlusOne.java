@@ -1,6 +1,9 @@
-package com.leetcode;
+package com.leetcode.hashtable_and_array;
 
 import java.util.Arrays;
+
+// Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
+// See: https://leetcode.com/problems/plus-one/
 
 public class PlusOne {
     public int[] plusOne(int[] digits) {

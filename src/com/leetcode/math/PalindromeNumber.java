@@ -2,7 +2,7 @@
 // An integer is a palindrome when it reads the same backward as forward.
 // See: https://leetcode.com/problems/palindrome-number/
 
-package com.leetcode;
+package com.leetcode.math;
 
 public class PalindromeNumber {
     public boolean isPalindrome(int x) {

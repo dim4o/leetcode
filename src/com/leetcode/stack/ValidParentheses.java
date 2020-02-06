@@ -2,7 +2,7 @@
 // determine if the input string is valid.
 // See: https://leetcode.com/problems/valid-parentheses/
 
-package com.leetcode;
+package com.leetcode.stack;
 
 import java.util.HashMap;
 import java.util.Map;

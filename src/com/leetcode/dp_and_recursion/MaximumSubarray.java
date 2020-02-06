@@ -9,7 +9,7 @@
 
 // See: https://leetcode.com/problems/maximum-subarray/
     
-package com.leetcode;
+package com.leetcode.dp_and_recursion;
 
 public class MaximumSubarray {
     public int maxSubArray(int[] nums) {

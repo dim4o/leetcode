@@ -3,7 +3,7 @@
 // Note: Given n will be a positive integer.
 // See:  https://leetcode.com/problems/climbing-stairs/
 
-package com.leetcode;
+package com.leetcode.dp_and_recursion;
 
 public class ClimbingStairs {
     public int climbStairs(int n) {

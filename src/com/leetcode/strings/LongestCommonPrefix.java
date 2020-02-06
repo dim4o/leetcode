@@ -2,7 +2,7 @@
 // If there is no common prefix, return an empty string ""
 // See: https://leetcode.com/problems/longest-common-prefix/
 
-package com.leetcode;
+package com.leetcode.strings;
 
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
