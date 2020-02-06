@@ -1,7 +1,7 @@
 // Given a sorted linked list, delete all duplicates such that each element appear only once.
 // See: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 
-package com.leetcode;
+package com.leetcode.linked_list;
 
 public class RemoveDuplicatesFromSortedList {
 
@@ -59,15 +59,6 @@ public class RemoveDuplicatesFromSortedList {
         while (node != null) {
             System.out.println(node.val);
             node = node.next;
-        }
-    }
-    
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
         }
     }
 }
