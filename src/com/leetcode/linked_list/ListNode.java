@@ -8,4 +8,11 @@ public class ListNode {
     ListNode(int x) {
         val = x;
     }
+    
+    static void printLinkedList(ListNode head) {
+        while (head != null) {
+            System.out.println(head.val);
+            head = head.next;
+        }
+    }
 }
