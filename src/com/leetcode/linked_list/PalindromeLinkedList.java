@@ -6,19 +6,40 @@ package com.leetcode.linked_list;
 import java.util.Stack;
 
 public class PalindromeLinkedList {
-    
-    // The idea is to reverse the first half of the list (in-place),
-    // and to compare with the second half
+    /**
+     * The idea is to reverse the first half of the list (in-place),
+     * and to compare with the second half
+     */
     public boolean isPalindrome(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
         ListNode prevNode = null;
-        ListNode currNode = head;
         
+        // reverse the first half of the linked list        
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            ListNode nextNode = slow.next;
+            slow.next = prevNode;
+            prevNode = slow;
+            slow = nextNode;
+        }
+
+        // if the list size is odd -> move the "slow" forward
+        // 1->2->3->4->5 (the "slow" pointer will be moved from 3 to 4)
+        if (fast != null && fast.next == null)
+            slow = slow.next;
         
-        return false;
+        // compare the reversed first half with the second half of the linked list
+        // "prevNode" is the head of the reversed first half of the linked list
+        // "slow" is the head of the second half of the list
+        while (prevNode != null && prevNode.val == slow.val) {
+            prevNode = prevNode.next;
+            slow = slow.next;
+        }
+
+        return prevNode == null;
     }
-    
+
     // Brute-force not optimized solution with stack
     public boolean isPalindrome_bruteforce(ListNode head) {
         if (head == null)
@@ -31,7 +52,7 @@ public class PalindromeLinkedList {
             stack.push(head.val);
             head = head.next;
         }
-        
+
         // create a reversed linked list
         ListNode newHead = new ListNode(stack.pop());
         ListNode reversed = newHead;
@@ -58,9 +79,9 @@ public class PalindromeLinkedList {
         ListNode n1 = new ListNode(1);
         ListNode n2 = new ListNode(2);
         ListNode n3 = new ListNode(3);
-        ListNode n4 = new ListNode(4);
-        ListNode n5 = new ListNode(5);
-        ListNode n6 = new ListNode(6);
+        ListNode n4 = new ListNode(3);
+        ListNode n5 = new ListNode(2);
+        ListNode n6 = new ListNode(1);
 
         n1.next = n2;
         n2.next = n3;
@@ -69,13 +90,6 @@ public class PalindromeLinkedList {
         n5.next = n6;
 
         System.out.println(sln.isPalindrome(n1));
-        sln.printList(n1);
-    }
-
-    private void printList(ListNode head) {
-        while (head != null) {
-            System.out.println(head.val);
-            head = head.next;
-        }
+//        ListNode.printLinkedList(n1);
     }
 }
