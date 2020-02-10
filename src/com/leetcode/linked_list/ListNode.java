@@ -10,9 +10,15 @@ public class ListNode {
     }
     
     static void printLinkedList(ListNode head) {
+        StringBuilder sb = new StringBuilder();
         while (head != null) {
-            System.out.println(head.val);
+            sb.append(head.val);
+
             head = head.next;
+            if (head != null) {
+               sb.append(" -> ");
+            }
         }
+        System.err.println(sb.toString());
     }
 }
