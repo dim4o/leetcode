@@ -3,6 +3,11 @@
 
 package com.leetcode.linked_list;
 
+import static com.leetcode.linked_list.util.LinkedListUtil.initList;
+import static com.leetcode.linked_list.util.LinkedListUtil.printLinkedList;
+
+import com.leetcode.linked_list.util.ListNode;
+
 public class RemoveLinkedListElements {
     public ListNode removeElements(ListNode head, int val) {
         while (head != null && head.val == val) {
@@ -10,9 +15,10 @@ public class RemoveLinkedListElements {
         }
         ListNode result = head;
         ListNode prev = head;
-        if (head == null) return null;
+        if (head == null)
+            return null;
         head = head.next;
-        
+
         while (head != null) {
             if (head.val == val) {
                 prev.next = head.next;
@@ -28,21 +34,9 @@ public class RemoveLinkedListElements {
     public static void main(String[] args) {
         RemoveLinkedListElements sln = new RemoveLinkedListElements();
 
-        ListNode.printLinkedList(initList());
-        ListNode.printLinkedList(sln.removeElements(initList(), 6));
-        ListNode.printLinkedList(sln.removeElements(initList(), 1));
-    }
-    
-    private static ListNode initList() {
-        ListNode ll = new ListNode(1);
-        
-        ll.next = new ListNode(1);
-        ll.next.next = new ListNode(6);
-        ll.next.next.next = new ListNode(6);
-        ll.next.next.next.next = new ListNode(1);
-        ll.next.next.next.next.next = new ListNode(5);
-        ll.next.next.next.next.next.next = new ListNode(6);
-        
-        return ll;
+        int[] values = new int[] {1, 6, 6, 1, 5, 6};
+        printLinkedList(initList(values));
+        printLinkedList(sln.removeElements(initList(values), 6));
+        printLinkedList(sln.removeElements(initList(values), 1));
     }
 }

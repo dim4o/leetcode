@@ -6,6 +6,8 @@ package com.leetcode.linked_list;
 import java.util.HashSet;
 import java.util.Set;
 
+import com.leetcode.linked_list.util.ListNode;
+
 public class LinkedListCycle {
         // O(n) time complexity
         // O(1) space complexity

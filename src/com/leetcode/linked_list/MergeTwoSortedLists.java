@@ -6,6 +6,10 @@
 
 package com.leetcode.linked_list;
 
+import static com.leetcode.linked_list.util.LinkedListUtil.printLinkedList;
+
+import com.leetcode.linked_list.util.ListNode;
+
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);
@@ -36,6 +40,6 @@ public class MergeTwoSortedLists {
         l2.next = new ListNode(3);
         l2.next.next = new ListNode(4);
         
-        ListNode.printLinkedList(sln.mergeTwoLists(l1, l2));
+        printLinkedList(sln.mergeTwoLists(l1, l2));
     }
 }

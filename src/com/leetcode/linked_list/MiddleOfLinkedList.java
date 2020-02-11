@@ -4,6 +4,8 @@
 
 package com.leetcode.linked_list;
 
+import com.leetcode.linked_list.util.ListNode;
+
 public class MiddleOfLinkedList {
     public ListNode middleNode(ListNode head) {
         ListNode fast = head;

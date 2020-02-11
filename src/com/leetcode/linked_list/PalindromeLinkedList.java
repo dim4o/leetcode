@@ -5,6 +5,8 @@ package com.leetcode.linked_list;
 
 import java.util.Stack;
 
+import com.leetcode.linked_list.util.ListNode;
+
 public class PalindromeLinkedList {
     /**
      * The idea is to reverse the first half of the list (in-place),
