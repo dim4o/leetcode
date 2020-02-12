@@ -6,7 +6,7 @@
 
 package com.leetcode.linked_list;
 
-import static com.leetcode.linked_list.util.LinkedListUtil.printLinkedList;
+import static com.leetcode.linked_list.util.LinkedListUtil.*;
 
 import com.leetcode.linked_list.util.ListNode;
 
@@ -30,16 +30,11 @@ public class MergeTwoSortedLists {
         return result.next;
     }
 
-
     public static void main(String[] args) {
         MergeTwoSortedLists sln = new MergeTwoSortedLists();
-        ListNode l1 = new ListNode(1);
-        l1.next = new ListNode(2);
-        l1.next.next = new ListNode(4);
-        ListNode l2 = new ListNode(1);
-        l2.next = new ListNode(3);
-        l2.next.next = new ListNode(4);
-        
+        ListNode l1 = initList(1, 2, 4);
+        ListNode l2 = initList(1, 3, 4);
+
         printLinkedList(sln.mergeTwoLists(l1, l2));
     }
 }

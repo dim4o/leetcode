@@ -3,6 +3,8 @@
 
 package com.leetcode.linked_list;
 
+import static com.leetcode.linked_list.util.LinkedListUtil.initList;
+
 import java.util.Stack;
 
 import com.leetcode.linked_list.util.ListNode;
@@ -78,20 +80,8 @@ public class PalindromeLinkedList {
 
     public static void main(String[] args) {
         PalindromeLinkedList sln = new PalindromeLinkedList();
-        ListNode n1 = new ListNode(1);
-        ListNode n2 = new ListNode(2);
-        ListNode n3 = new ListNode(3);
-        ListNode n4 = new ListNode(3);
-        ListNode n5 = new ListNode(2);
-        ListNode n6 = new ListNode(1);
-
-        n1.next = n2;
-        n2.next = n3;
-        n3.next = n4;
-        n4.next = n5;
-        n5.next = n6;
+        ListNode n1 = initList(1, 2, 3, 3, 2, 1);
 
         System.out.println(sln.isPalindrome(n1));
-//        ListNode.printLinkedList(n1);
     }
 }
