@@ -14,6 +14,7 @@ public class LinkedListUtil {
 
     public static void printLinkedList(ListNode head) {
         StringBuilder sb = new StringBuilder();
+        
         while (head != null) {
             sb.append(head.val);
 
@@ -22,7 +23,13 @@ public class LinkedListUtil {
                sb.append(" -> ");
             }
         }
-
-        System.out.println(sb.toString());
+        
+        String result = sb.toString();
+        
+        if (result.isEmpty()) {
+            result = "empty";
+        }
+        
+        System.out.println(result);
     }
 }
