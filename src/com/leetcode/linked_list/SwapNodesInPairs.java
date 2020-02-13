@@ -10,29 +10,32 @@ import static com.leetcode.linked_list.util.LinkedListUtil.printLinkedList;
 import com.leetcode.linked_list.util.ListNode;
 
 public class SwapNodesInPairs {
+    // TODO: Solve without "first" and "second" pointer
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
         ListNode prev = new ListNode(-1); // some dummy value
+        prev.next = head;
         ListNode first = head;
-        prev.next = first;
         ListNode second = head.next;
-        ListNode res = second;
+        ListNode res = prev;
 
         while (first.next != null) {
+            // swap first and second node
             prev.next = first.next;
             first.next = first.next.next;
             second.next = first;
-
+            
             if (first.next != null) {
+                // reassign the first and second node to next pair
                 prev = first;
                 first = first.next;
                 second = first.next;
             }
         }
 
-        return res;
+        return res.next;
     }
 
     public static void main(String... args) {

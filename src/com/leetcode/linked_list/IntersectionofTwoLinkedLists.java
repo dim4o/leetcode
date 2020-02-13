@@ -1,5 +1,6 @@
 // Write a program to find the node at which the intersection of two singly linked lists begins.
 // See: https://leetcode.com/problems/intersection-of-two-linked-lists/
+// TODO: Can you solve the problem with N(1) space complexity?
 
 package com.leetcode.linked_list;
 
