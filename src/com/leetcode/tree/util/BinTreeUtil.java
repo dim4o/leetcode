@@ -5,6 +5,9 @@ import java.util.List;
 
 public class BinTreeUtil {
     public static TreeNode initTree(Integer... values) {
+        if (values.length == 0) {
+            return null;
+        }
         TreeNode[] treeArr = new TreeNode[values.length];
         for (int i = 0; i < treeArr.length; i++) {
             if (values[i] != null) {
