@@ -3,6 +3,8 @@
 
 package leetcode.tree;
 
+import static leetcode.util.tree.BinTreeUtil.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,12 +29,10 @@ public class BinaryTreePreorderTraversal {
 
     public static void main(String[] args) {
         BinaryTreePreorderTraversal sln = new BinaryTreePreorderTraversal();
-        TreeNode n1 = new TreeNode(1);
-        TreeNode n2 = new TreeNode(2);
-        TreeNode n3 = new TreeNode(3);
-        n1.right = n2;
-        n2.left = n3;
+        TreeNode t1 = initTree(1, null, 2, 3);
+        TreeNode t2 = initTree(3, 9, 20, null, null, 15, 7);
 
-        System.out.println(sln.inorderTraversal(n1));
+        System.out.println(sln.inorderTraversal(t1));
+        System.out.println(sln.inorderTraversal(t2));
     }
 }
