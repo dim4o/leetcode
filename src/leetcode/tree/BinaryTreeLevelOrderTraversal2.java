@@ -14,7 +14,7 @@ import java.util.Map;
 
 import leetcode.util.tree.TreeNode;
 
-public class BinaryTreeLevelOrderTraversal_II {
+public class BinaryTreeLevelOrderTraversal2 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         Map<Integer, List<Integer>> resMap = new LinkedHashMap<Integer, List<Integer>>();
         dfs(root, 0, resMap);
@@ -39,7 +39,7 @@ public class BinaryTreeLevelOrderTraversal_II {
     }
 
     public static void main(String[] args) {
-        BinaryTreeLevelOrderTraversal_II sln = new BinaryTreeLevelOrderTraversal_II();
+        BinaryTreeLevelOrderTraversal2 sln = new BinaryTreeLevelOrderTraversal2();
 
         TreeNode t1 = initTree(3, 9, 20, null, null, 15, 7);
         System.out.println(sln.levelOrderBottom(t1));
