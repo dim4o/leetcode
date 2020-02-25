@@ -25,13 +25,9 @@ public class Subsets {
         if (start == nums.length) return;
 
         for (int i = start; i < nums.length; i++) {
-            curr.add(nums[start]);
-            
+            curr.add(nums[i]);
             result.add(new LinkedList<>(curr));
-            start += 1;
-
-            backtrack(nums, result, curr, start);
-            
+            backtrack(nums, result, curr, i + 1);
             curr.removeLast();
         }
     }
