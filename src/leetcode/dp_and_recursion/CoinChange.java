@@ -8,12 +8,34 @@ package leetcode.dp_and_recursion;
 import java.util.Arrays;
 
 public class CoinChange {
+    /**
+     * Time complexity O(NxM), O(N) space, where N is the target amount.
+     * Note that for this particular problem the input coins are sorted
+     * but in the general case the input need to be sorted.
+     */
+    public int coinChange(int[] coins, int amount) {
+        Arrays.sort(coins);
+
+        int[] dp = new int[amount + 1];
+
+        for (int i = 1; i < dp.length; i++)
+            dp[i] = amount + 1;
+
+        for (int i = 0; i < coins.length; i++) {
+            for (int j = 1; j < dp.length; j++) {
+                if (j >= coins[i]) {
+                    dp[j] = Math.min(dp[j], dp[j - coins[i]] + 1);
+                }
+            }
+        }
+        
+        return dp[amount] <= amount ? dp[amount] : -1;
+    }
 
     /**
      * Time complexity O(NxM), O(NxM) space.
-     * TODO: rewrite with O(N) space
      */
-    public int coinChange(int[] coins, int amount) {
+    public int coinChange2(int[] coins, int amount) {
         Arrays.sort(coins);
 
         int n = coins.length + 1;
@@ -38,7 +60,8 @@ public class CoinChange {
      * Good idea but very ugly implementation
      */
     public int coinChange1(int[] coins, int amount) {
-        if (amount == 0) return 0;
+        if (amount == 0)
+            return 0;
         Arrays.sort(coins);
 
         int n = coins.length;
@@ -78,7 +101,7 @@ public class CoinChange {
         System.out.println(sln.coinChange(new int[] { 186, 419, 83, 408 }, 6249));
 
     }
-    
+
     @SuppressWarnings("unused")
     private void printTable(int[][] dp) {
         for (int[] line : dp) {
