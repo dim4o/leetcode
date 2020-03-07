@@ -13,8 +13,8 @@ import java.util.List;
 import java.util.Set;
 
 public class ThreeSum {
-    // Almost brute force (accepted)
-    public List<List<Integer>> threeSum(int[] nums) {
+    // Sort and memorize (accepted)
+    public List<List<Integer>> threeSum1(int[] nums) {
         Arrays.sort(nums);
         Set<List<Integer>> triples = new HashSet<>();
 
@@ -30,6 +30,29 @@ public class ThreeSum {
                         triples.add(triple);
                 } else s.add(third);
             }
+        }
+        
+        return new ArrayList<List<Integer>>(triples);
+    }
+    
+    // Without sort (accepted)
+    public List<List<Integer>> threeSum(int[] nums) {
+        Set<Integer> used = new HashSet<>();
+        Set<List<Integer>> triples = new HashSet<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            Set<Integer> s = new HashSet<>();
+            for (int j = i + 1; j < nums.length; j++) {
+                if (!used.contains(nums[j])) {
+                    int third = -nums[i] - nums[j];
+                    if (s.contains(nums[j])) {
+                        List<Integer> triple = Arrays.asList(new Integer[] { nums[i], third, nums[j] });
+                        if (!triples.contains(triple))
+                            triples.add(triple);
+                    } else s.add(third);
+                }
+            }
+            used.add(nums[i]);
         }
         
         return new ArrayList<List<Integer>>(triples);
