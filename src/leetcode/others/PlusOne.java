@@ -1,4 +1,4 @@
-package leetcode.hashtable_and_array;
+package leetcode.others;
 
 import java.util.Arrays;
 

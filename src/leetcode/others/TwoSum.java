@@ -4,7 +4,7 @@
 // and you may not use the same element twice.
 // See: https://leetcode.com/problems/two-sum/
 
-package leetcode.hashtable_and_array;
+package leetcode.others;
 
 import java.util.Arrays;
 import java.util.HashMap;
