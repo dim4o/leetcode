@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 public class SumClosest3 {
 
-    // Optimized O(n^2) version
+    // Optimized O(n.log(n) + n^2) version
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int minDiff = Integer.MAX_VALUE;
