@@ -14,7 +14,7 @@ import java.util.Set;
 
 public class Sum3 {
     // Two pointers solution (accepted)
-    // Moreover the same O(n^2) time complexity this solution is faster than the others,
+    // Moreover the O(n.log(n) + n^2) time complexity this solution is faster than the others,
     // because no need of Set
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
@@ -67,7 +67,7 @@ public class Sum3 {
         return new ArrayList<List<Integer>>(triples);
     }
 
-    // Without sort (accepted)
+    // Without sort O(n^2) time (accepted)
     public List<List<Integer>> threeSum1(int[] nums) {
         Set<Integer> used = new HashSet<>();
         Set<List<Integer>> triples = new HashSet<>();
