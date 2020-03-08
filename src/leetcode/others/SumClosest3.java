@@ -8,7 +8,7 @@ package leetcode.others;
 
 import java.util.Arrays;
 
-public class ThreeSumClosest {
+public class SumClosest3 {
 
     // Optimized O(n^2) version
     public int threeSumClosest(int[] nums, int target) {
@@ -58,7 +58,7 @@ public class ThreeSumClosest {
     }
 
     public static void main(String[] args) {
-        ThreeSumClosest sln = new ThreeSumClosest();
+        SumClosest3 sln = new SumClosest3();
 
         System.out.println(sln.threeSumClosest(new int[] { -1, 2, 1, -4 }, 1));
 

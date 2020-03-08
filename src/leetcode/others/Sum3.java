@@ -12,7 +12,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class ThreeSum {
+public class Sum3 {
     // Two pointers solution (accepted)
     // Moreover the same O(n^2) time complexity this solution is faster than the others,
     // because no need of Set
@@ -93,7 +93,7 @@ public class ThreeSum {
     }
 
     public static void main(String[] args) {
-        ThreeSum sln = new ThreeSum();
+        Sum3 sln = new Sum3();
         System.out.println(sln.threeSum(new int[] { -1, 0, 1, 2, -1, -4 }));
         System.out.println(sln.threeSum(new int[] { -1, -1, -1, 1, 1, 1, 0, 0, 0 }));
         System.out.println(sln.threeSum(new int[] { -1, 0, 0, 0, 0, 1, 0, 0 }));
