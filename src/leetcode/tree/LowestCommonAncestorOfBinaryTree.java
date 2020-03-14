@@ -1,5 +1,6 @@
 // Lowest Common Ancestor of a Binary Tree
 // See: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/
+// See: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/538853/Easy-Java-Recursion
 
 package leetcode.tree;
 
@@ -11,9 +12,25 @@ import java.util.List;
 import leetcode.util.tree.TreeNode;
 
 public class LowestCommonAncestorOfBinaryTree {
-    // TODO: Add more optimal solution
-    // Working but slow solution
+    // Effective recursive solution
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null)
+            return null;
+
+        if (root.val == p.val || root.val == q.val)
+            return root;
+
+        TreeNode l = lowestCommonAncestor(root.left, p, q);
+        TreeNode r = lowestCommonAncestor(root.right, p, q);
+        
+        if (l != null && r != null)
+            return root;
+        
+        return l == null ? r : l;
+    }
+    
+    // Working but slow solution
+    public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null)
             return null;
 
@@ -26,8 +43,8 @@ public class LowestCommonAncestorOfBinaryTree {
         if (root.val == q.val && (l || r))
             return root;
 
-        TreeNode t1 = lowestCommonAncestor(root.left, p, q);
-        TreeNode t2 = lowestCommonAncestor(root.right, p, q);
+        TreeNode t1 = lowestCommonAncestor1(root.left, p, q);
+        TreeNode t2 = lowestCommonAncestor1(root.right, p, q);
 
         return t1 == null ? t2 : t1;
     }
@@ -45,7 +62,9 @@ public class LowestCommonAncestorOfBinaryTree {
         TreeNode t = initTree(3, 5, 1, 6, 2, 0, 8, null, null, 7, 4);
         System.out.println(sln.lowestCommonAncestor(t, new TreeNode(5), new TreeNode(1)).val); // 3
         System.out.println(sln.lowestCommonAncestor(t, new TreeNode(5), new TreeNode(4)).val); // 5
-        System.out.println(sln.lowestCommonAncestor(t, new TreeNode(4), new TreeNode(6)).val);
+        System.out.println(sln.lowestCommonAncestor(t, new TreeNode(4), new TreeNode(6)).val); // 5
+        System.out.println(sln.lowestCommonAncestor(t, new TreeNode(6), new TreeNode(6)).val); // 6
+        System.out.println(sln.lowestCommonAncestor(t, new TreeNode(1), new TreeNode(1)).val); // 1
     }
     
     // Buggy solution. The idea is to compare the paths from the root to node "p" and "q".
