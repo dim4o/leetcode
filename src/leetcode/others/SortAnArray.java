@@ -3,11 +3,80 @@ package leetcode.others;
 import java.util.Arrays;
 
 public class SortAnArray {
-    /**
-     * Merge Sort. n.log(n) time for worst, average and base case. O(n) space, but
-     * can be done and with O(1) space. Stable: Yes
+    /*
+     * Quick Sort. 
+     * n.log(n) time for average and base case, O(n^2) for the worst case.
+     * O(1) space
+     * Stable: No
      */
     public int[] sortArray(int[] nums) {
+        quickSort(nums, 0, nums.length - 1);
+        return nums;
+    }
+
+    private void quickSort(int[] nums, int lo, int hi) {
+        if (lo >= hi)
+            return;
+        int pivIndex = partition(nums, lo, hi);
+        quickSort(nums, lo, pivIndex - 1);
+        quickSort(nums, pivIndex + 1, hi);
+    }
+
+    /**
+     * Partitions the input without an auxiliary array.
+     */
+    int partition(int arr[], int low, int high) {
+        int pivot = arr[high];
+        int i = low - 1; // index of smaller element
+        for (int j = low; j < high; j++) {
+            // If current element is smaller than the pivot
+            if (arr[j] < pivot) {
+                i++;
+                // swap arr[i] and arr[j]
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        // swap arr[i+1] and arr[high] (or pivot)
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        return i + 1;
+    }
+
+    /**
+     * Uses additional memory for the auxiliary array.
+     */
+    @SuppressWarnings("unused")
+    private int partitionVariant(int[] nums, int lo, int hi) {
+        int[] tmp = new int[hi - lo + 1];
+        int tail = tmp.length - 1;
+        int head = 0;
+        int piv = nums[lo];
+        for (int i = lo + 1; i <= hi; i++)
+            if (nums[i] < piv)
+                tmp[head++] = nums[i];
+            else
+                tmp[tail--] = nums[i];
+
+        tmp[head] = piv;
+        // copy back the auxiliary array to the original
+        for (int i = 0; i < tmp.length; i++)
+            nums[lo + i] = tmp[i];
+
+        return head + lo;
+    }
+    
+    /**
+     * Merge Sort. 
+     * n.log(n) time for worst, average and base case. 
+     * O(n) space, but can be done and with O(1) space. 
+     * Stable: Yes
+     */
+    public int[] sortArray_var5(int[] nums) {
         return mergeSort(nums, 0, nums.length - 1);
     }
 
@@ -48,9 +117,10 @@ public class SortAnArray {
     }
 
     /**
-     * Bubble Sort, not accepted (Time Limit Exceeded). Moreover the same time
-     * complexity as Insertion Sort or Selection Sort this algorithm seems slower in
-     * practice. O(n^2) time, O(1) space
+     * Bubble Sort, not accepted (Time Limit Exceeded). 
+     * Moreover the same time complexity as Insertion Sort or Selection Sort 
+     * this algorithm seems slower in practice. 
+     * O(n^2) time, O(1) space.
      */
     public int[] sortArray_var4(int[] nums) {
         for (int i = nums.length - 1; i >= 1; i--) {
@@ -71,9 +141,10 @@ public class SortAnArray {
     }
 
     /**
-     * Binary Insertion Sort (Insertion Sort using Binary Search). O(n^2) time for
-     * the worst case(reversed order), but the number of comparisons are O(n.log(n))
-     * time for average case, O(1) space.
+     * Binary Insertion Sort (Insertion Sort using Binary Search). 
+     * O(n^2) time for the worst case(reversed order), but the number of comparisons are O(n.log(n))
+     * time for average case.
+     * O(1) space
      */
     public int[] sortArray_var3(int[] nums) {
         for (int i = 1; i < nums.length; i++) {
@@ -111,7 +182,8 @@ public class SortAnArray {
     }
 
     /**
-     * Insertion sort. O(n^2) time, O(1) space.
+     * Insertion sort. 
+     * O(n^2) time, O(1) space.
      */
     public int[] sortArray_var2(int[] nums) {
         for (int i = 1; i < nums.length; i++) {
@@ -130,7 +202,8 @@ public class SortAnArray {
     }
 
     /**
-     * Selection sort - initial intuitive solution. O(n^2) time , O(1) space.
+     * Selection sort - initial intuitive solution. 
+     * O(n^2) time , O(1) space.
      */
     public int[] sortArray_var1(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
