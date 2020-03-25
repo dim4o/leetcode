@@ -36,6 +36,25 @@ public class BinTreeUtil {
         return treeArr[0];
     }
     
+    /**
+     * An experimental implementation
+     */
+    @SuppressWarnings("unused")
+    private static TreeNode init(Integer[] vals, Integer i) {
+        if (i >= vals.length) {
+            return null;
+        }
+        if (vals[i] == null) {
+            return null;
+        }
+
+        TreeNode curr = new TreeNode(vals[i]);
+        curr.left = init(vals, 2*i + 1);
+        curr.right = init(vals, 2*i + 2);
+
+        return curr;
+    }
+
     public static void printInorder(TreeNode root) {
         System.out.println(getInorder(root));
     }
