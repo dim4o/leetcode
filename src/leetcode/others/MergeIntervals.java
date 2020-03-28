@@ -5,9 +5,27 @@ package leetcode.others;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class MergeIntervals {
+    /**
+     * O(n) time, O(1) space but faster.
+     */
+    public int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        LinkedList<int[]> ans = new LinkedList<>();
+
+        for (int[] interval : intervals) {
+            if (ans.isEmpty() || ans.getLast()[1] < interval[0]) 
+                ans.add(interval);
+            else 
+                ans.getLast()[1] = Math.max(ans.getLast()[1], interval[1]);
+        }
+
+        return ans.toArray(new int[0][0]);
+    }
+    
     /**
      * O(n) time.
      * O(1) space (or O(n) - depends of the implementation).
@@ -18,7 +36,7 @@ public class MergeIntervals {
      * connected components and to build the output. Moreover that this approach
      * seems interesting it's time complexity is worst: O(n^2).
      */
-    public int[][] merge(int[][] intervals) {
+    public int[][] merge_var1(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         List<int[]> ans = new ArrayList<>();
 
@@ -40,7 +58,8 @@ public class MergeIntervals {
 
     public static void main(String[] args) {
         MergeIntervals sln = new MergeIntervals();
-        sln.merge(new int[][] { { 1, 3 }, { 2, 6 }, { 8, 10 }, { 15, 18 } });
+        
+        System.out.println(sln.merge(new int[][] { { 1, 3 }, { 2, 6 }, { 8, 10 }, { 15, 18 } }));
 
         sln.merge(new int[][] { { 1, 3 }, { 5, 10 }, { 2, 3 }, { 3, 4 }, {4, 4}});
     }
