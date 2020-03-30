@@ -1,3 +1,7 @@
+// Given an array A of integers, return the number of (contiguous, non-empty) 
+// subarrays that have a sum divisible by K.
+// See: https://leetcode.com/problems/subarray-sums-divisible-by-k/
+
 package leetcode.others;
 
 import java.util.HashMap;
@@ -14,6 +18,28 @@ public class SubarraySumsDivisiblebyK {
      * @see: https://stackoverflow.com/questions/3883004/the-modulo-operation-on-negative-numbers-in-python
      */
     public int subarraysDivByK(int[] A, int K) {
+        int[] remCount = new int[K];
+        remCount[0] = 1;
+        int res = 0;
+        int curr = 0;
+        for (int i = 0; i < A.length; i++) {
+            curr += A[i];
+            // surprisingly this expression is faster than the alternative
+            int modK = curr -  K * Math.floorDiv(curr, K); // the real "mod" operator
+            // int modK = (curr % K + K) % K; // alternative
+            remCount[modK]++;
+        }
+
+        for (int val : remCount)
+            res += val * (val - 1) / 2;
+
+        return res;
+    }
+    
+    /**
+     * Solution with HashMap.
+     */
+    public int subarraysDivByK_var2(int[] A, int K) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);
         int res = 0;
@@ -21,6 +47,7 @@ public class SubarraySumsDivisiblebyK {
         for (int i = 0; i < A.length; i++) {
             curr += A[i];
             int modK = (curr % K + K) % K; // the real "mod" operator
+            // int modK = curr -  K * Math.floorDiv(curr, K); // alternative
             map.put(modK, map.getOrDefault(modK, 0) + 1);
         }
 
@@ -51,13 +78,11 @@ public class SubarraySumsDivisiblebyK {
     }
 
     public static void main(String[] args) {
-//        System.out.println(Math.floor(-5 / 4.) * 4 + 5);
-//        System.out.println(-1 % 2);
         SubarraySumsDivisiblebyK sln = new SubarraySumsDivisiblebyK();
-
-//        System.out.println(sln.subarraysDivByK(new int[] { 4, 5, 0, -2, -3, 1 }, 5));
-//        System.out.println(sln.subarraysDivByK(new int[] { -1, 2, 9 }, 2));
-        System.out.println(sln.subarraysDivByK(new int[] { -6, 1, -5, 10 }, 9));
+        
+        System.out.println(sln.subarraysDivByK(new int[] { 4, 5, 0, -2, -3, 1 }, 5)); // 7
+        System.out.println(sln.subarraysDivByK(new int[] { -1, 2, 9 }, 2)); // 2
+        System.out.println(sln.subarraysDivByK(new int[] { -6, 1, -5, 10 }, 9)); // 1
 
     }
 
