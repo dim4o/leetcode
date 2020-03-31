@@ -7,7 +7,7 @@
 
 // See: https://leetcode.com/problems/zigzag-conversion/
 
-package leetcode.others;
+package leetcode.strings;
 
 public class ZigZagConversion {
     /**

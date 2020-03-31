@@ -3,7 +3,7 @@
 // See: https://leetcode.com/problems/add-binary/
 // See: https://leetcode.com/problems/add-binary/discuss/536481/Two-Java-Solutions
 
-package leetcode.others;
+package leetcode.strings;
 
 public class AddBinary {
     public String addBinary(String num1, String num2) {

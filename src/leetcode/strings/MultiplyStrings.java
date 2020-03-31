@@ -2,7 +2,7 @@
 // return the product of num1 and num2, also represented as a string.
 // See: https://leetcode.com/problems/multiply-strings/
 
-package leetcode.others;
+package leetcode.strings;
 
 public class MultiplyStrings {
     private StringBuilder res = new StringBuilder();

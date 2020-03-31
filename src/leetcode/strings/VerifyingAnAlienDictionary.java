@@ -4,7 +4,7 @@
 // return true if and only if the given words are sorted lexicographicaly in this alien language.
 // See: https://leetcode.com/problems/verifying-an-alien-dictionary/
     
-package leetcode.others;
+package leetcode.strings;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,7 +1,7 @@
 // On an alphabet board, we start at position (0, 0), corresponding to character board[0][0].
 // See: https://leetcode.com/problems/alphabet-board-path/
 
-package leetcode.others;
+package leetcode.strings;
 
 import java.util.HashMap;
 import java.util.Map;

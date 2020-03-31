@@ -2,7 +2,7 @@
 // return the sum of num1 and num2.
 // See: https://leetcode.com/problems/add-strings/
 
-package leetcode.others;
+package leetcode.strings;
 
 public class AddStrings {
    
