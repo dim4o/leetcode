@@ -13,12 +13,34 @@ import java.util.Set;
 
 import leetcode.util.linkedlist.ListNode;
 
-
 public class RemoveDuplicatesFromSortedList2 {
     /**
      * Initial solution with HashMap.
      */
     public ListNode deleteDuplicates(ListNode head) {
+        ListNode prev = new ListNode(Integer.MAX_VALUE);
+        ListNode ans = prev;
+        prev.next = head;
+        for (ListNode i = head; i != null; i = i.next) {
+            boolean dup = false;
+            while (i.next != null && i.val == i.next.val) {
+                i = i.next;
+                dup = true;
+            }
+
+            if (dup)
+                prev.next = i.next;
+            else
+                prev = i;
+        }
+
+        return ans.next;
+    }
+
+    /**
+     * Initial solution with HashMap.
+     */
+    public ListNode deleteDuplicates_var1(ListNode head) {
         ListNode ans = new ListNode(Integer.MAX_VALUE);
         ans.next = head;
 
@@ -39,6 +61,9 @@ public class RemoveDuplicatesFromSortedList2 {
 
     public static void main(String[] args) {
         RemoveDuplicatesFromSortedList2 sln = new RemoveDuplicatesFromSortedList2();
+
+        printLinkedList(sln.deleteDuplicates(initList(2, 2, 2, 3, 3, 4, 4, 5)));
+
         printLinkedList(sln.deleteDuplicates(initList(1, 2, 3, 3, 4, 4, 5)));
         printLinkedList(sln.deleteDuplicates(initList(1, 1, 1, 2, 3)));
         printLinkedList(sln.deleteDuplicates(initList(0, 0, 0)));
