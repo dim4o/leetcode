@@ -10,8 +10,37 @@ import static leetcode.util.linkedlist.LinkedListUtil.printLinkedList;
 import leetcode.util.linkedlist.ListNode;
 
 public class SwapNodesInPairs {
-    // TODO: Solve without "first" and "second" pointer
+    /**
+     * Initial recursive solution.
+     */
     public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null)
+            return head;
+
+        ListNode prev = swapPairs(head.next.next);
+        int tmp = head.val;
+        head.val = head.next.val;
+        head.next.val = tmp;
+        head.next.next = prev;
+        
+        return head;
+    }
+    
+    /**
+     * Another recursive solution with interesting swap.
+     */
+    public ListNode swapPairs_var2(ListNode head) {
+        if (head == null || head.next == null) 
+            return head;
+        
+        ListNode newHead = head.next;
+        head.next = swapPairs_var2(newHead.next);
+        newHead.next = head;
+        
+        return newHead;
+    }
+    
+    public ListNode swapPairs_var1(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
