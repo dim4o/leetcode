@@ -3,9 +3,6 @@ import re
 import os
 from collections import defaultdict
 
-# for best result keep this value high
-BEST_MATCH_THRESHOLD = 0.98
-
 
 def generate_class_name(title):
     """ Generates the file solution file name based on my convention """
@@ -27,7 +24,7 @@ def parse_commits():
     commit_items_set = set()
     for commit in commits:
         message_match = re.search("\"(.*?)\"", commit.message)
-        link_match = re.search("https://leetcode.com/problems/([a-zA-Z0-9-]+)/", commit.message)
+        link_match = re.search("https://leetcode.com/.*", commit.message)
         title, url = "", ""
         if message_match:
             title = message_match.group(1)
@@ -81,17 +78,24 @@ def find_best_match_class_name(generated_class_name, all_files):
             category = re.match("./src/leetcode/(.*)/.*.java", local_path).group(1)
             best_match = (candidate, local_path, category)
             best_dist = curr_dist
-            # print(best_match)
-        if best_dist >= BEST_MATCH_THRESHOLD:
-            break
+
     return best_match
+
+def remove_duplicates(items):
+    """ Removes the duplicates due inconsistent commit messages """
+    items.remove(("Reverse LinkedList", "https://leetcode.com/problems/reverse-linked-list/"))
+    items.remove(("Counting Elements",
+                  "https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/"))
+    return items
 
 
 if __name__ == '__main__':
     items = parse_commits()
+    items = remove_duplicates(items)
+
     all_files_dict = get_all_java_files()
-    # sorted_items = sorted(items, key=lambda x: x[0])
     category_map = defaultdict(list)
+
     for item in items:
         title, url = item
         candidate, local_path, category = find_best_match_class_name(generate_class_name(title), all_files_dict)
@@ -101,6 +105,11 @@ if __name__ == '__main__':
 
     with open("./README.md", 'w') as file:
         file.write("# My Solutions of some LeetCode problems\n\n")
+        file.write("(This item is generated with [update-readme.py](./update-readme.py).)\n\n")
+        file.write("{} solved problems from {} categories:\n".format(len(items), len(sorted_category_map)))
+
+        for category, val in sorted_category_map.items():
+            file.write("* [{}](#{}) - {} problems\n".format(category.title().replace("_", " "), category.replace("_", "-"), len(val)))
 
         for category, item_list in sorted_category_map.items():
             file.write("## {}\n".format(category.title().replace("_", " ")))
@@ -108,6 +117,7 @@ if __name__ == '__main__':
             file.write("--- | --- | ---\n")
 
             item_list = sorted(item_list, key=lambda x: x[0])
+
             for index, line in enumerate(item_list):
                 title, url, candidate, local_path = line
                 file.write("{} | [{}]({}) | [{}]({})\n".format(index + 1, title, url, candidate, local_path))
