@@ -6,7 +6,7 @@
 
 package leetcode.others;
 
-public class BestTimeToBuyAndSellStockII {
+public class BestTimeToBuyAndSellStock2 {
     // TODO: Add an effective solution
     /**
      * Recursive solution - correct but not accepted due TLE.
@@ -39,7 +39,7 @@ public class BestTimeToBuyAndSellStockII {
 
     public static void main(String[] args) {
         System.out.println(
-                new BestTimeToBuyAndSellStockII().maxProfit(new int[] { 7, 1, 5, 3, 6, 4 }));
+                new BestTimeToBuyAndSellStock2().maxProfit(new int[] { 7, 1, 5, 3, 6, 4 }));
     }
 
 }
