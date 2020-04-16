@@ -81,6 +81,7 @@ def find_best_match_class_name(generated_class_name, all_files):
 
     return best_match
 
+
 def remove_duplicates(items):
     """ Removes the duplicates due inconsistent commit messages """
     items.remove(("Reverse LinkedList", "https://leetcode.com/problems/reverse-linked-list/"))
