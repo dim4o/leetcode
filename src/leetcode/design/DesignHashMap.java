@@ -7,7 +7,7 @@
 //   - remove(key) : Remove the mapping for the value key if this map contains the mapping for the key.
 // See: https://leetcode.com/problems/design-hashmap/
 
-package design;
+package leetcode.design;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

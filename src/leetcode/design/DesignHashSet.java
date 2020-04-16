@@ -5,7 +5,7 @@
 //   - remove(value): Remove a value in the HashSet. If the value does not exist in the HashSet, do nothing.
 // See: https://leetcode.com/problems/design-hashset/
 
-package design;
+package leetcode.design;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
