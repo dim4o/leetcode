@@ -2,11 +2,11 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-221 solved problems from 11 categories:
+227 solved problems from 11 categories:
 * [Backtracking](#backtracking) - 25 problems
 * [Binary Search](#binary-search) - 10 problems
-* [Challenge](#challenge) - 8 problems
-* [Design](#design) - 2 problems
+* [Challenge](#challenge) - 9 problems
+* [Design](#design) - 7 problems
 * [Dynamic Programming](#dynamic-programming) - 19 problems
 * [Linkedlist](#linkedlist) - 22 problems
 * [Math](#math) - 5 problems
@@ -66,14 +66,20 @@ Index | Problem  | My solution |
 4 | [Happy Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/) | [HappyNumber.java](./src/leetcode/challenge/HappyNumber.java)
 5 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [LastStoneWeight.java](./src/leetcode/challenge/LastStoneWeight.java)
 6 | [Min Stack](https://leetcode.com/problems/min-stack/) | [MinStack.java](./src/leetcode/challenge/MinStack.java)
-7 | [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [PerformStringShifts.java](./src/leetcode/challenge/PerformStringShifts.java)
-8 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/challenge/SingleNumber.java)
+7 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](./src/leetcode/challenge/NumberOfIslands.java)
+8 | [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [PerformStringShifts.java](./src/leetcode/challenge/PerformStringShifts.java)
+9 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/challenge/SingleNumber.java)
 
 ## Design
 Index | Problem  | My solution |
 --- | --- | ---
-1 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | [DesignHashMap.java](./src/leetcode/design/DesignHashMap.java)
-2 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [DesignHashSet.java](./src/leetcode/design/DesignHashSet.java)
+1 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [DesignCircularQueue.java](./src/leetcode/design/DesignCircularQueue.java)
+2 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | [DesignHashMap.java](./src/leetcode/design/DesignHashMap.java)
+3 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [DesignHashSet.java](./src/leetcode/design/DesignHashSet.java)
+4 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | [DesignLinkedList.java](./src/leetcode/design/DesignLinkedList.java)
+5 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [DesignStackWithIncrementOperation.java](./src/leetcode/design/DesignStackWithIncrementOperation.java)
+6 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [ImplementQueueUsingStacks.java](./src/leetcode/design/ImplementQueueUsingStacks.java)
+7 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [ImplementStackUsingQueues.java](./src/leetcode/design/ImplementStackUsingQueues.java)
 
 ## Dynamic Programming
 Index | Problem  | My solution |
