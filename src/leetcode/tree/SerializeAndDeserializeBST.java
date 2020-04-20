@@ -20,10 +20,31 @@ public class SerializeAndDeserializeBST {
             if (!right.isEmpty()) right = "," + right;
             return root.val + left + right;
         }
+        
+        // Decodes your encoded data to tree.
+        // Recursive solution.
+        public TreeNode deserialize(String data) {
+            if (data.isEmpty()) return null;
+            String[] vals = data.split(",");
+            TreeNode root = new TreeNode(Integer.parseInt(vals[0]));
+            for (int i = 1; i < vals.length; i++) 
+                insert(root, Integer.parseInt(vals[i]));
+            return root;
+        }
+        
+        private TreeNode insert(TreeNode root, int val) {
+            if (root == null) return new TreeNode(val);
+            if (val < root.val)
+                root.left = insert(root.left, val);
+            else
+                root.right = insert(root.right, val);
+
+            return root;
+        }
 
         // Decodes your encoded data to tree.
-        // TODO: add recursive version
-        public TreeNode deserialize(String data) {
+        // Iterative solution.
+        public TreeNode deserialize_va1(String data) {
             if (data.isEmpty()) return null;
             String[] vals = data.split(",");
             TreeNode root = new TreeNode(Integer.parseInt(vals[0]));
