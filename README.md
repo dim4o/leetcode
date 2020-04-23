@@ -2,16 +2,16 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-232 solved problems from 11 categories:
+234 solved problems from 11 categories:
 * [Backtracking](#backtracking) - 25 problems
 * [Binary Search](#binary-search) - 10 problems
-* [Challenge](#challenge) - 11 problems
-* [Design](#design) - 10 problems
+* [Challenge](#challenge) - 13 problems
+* [Design](#design) - 11 problems
 * [Dynamic Programming](#dynamic-programming) - 19 problems
 * [Linkedlist](#linkedlist) - 22 problems
 * [Math](#math) - 5 problems
 * [Others](#others) - 43 problems
-* [Stack](#stack) - 9 problems
+* [Stack](#stack) - 8 problems
 * [String](#string) - 8 problems
 * [Tree](#tree) - 70 problems
 ## Backtracking
@@ -61,16 +61,18 @@ Index | Problem  | My solution |
 Index | Problem  | My solution |
 --- | --- | ---
 1 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [BackspaceStringCompare.java](./src/leetcode/challenge/BackspaceStringCompare.java)
-2 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [ConstructBinarySearchTreeFromPreorderTraversal.java](./src/leetcode/challenge/ConstructBinarySearchTreeFromPreorderTraversal.java)
-3 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [ContiguousArray.java](./src/leetcode/challenge/ContiguousArray.java)
-4 | [Counting Elements](https://leetcode.com/problems/product-of-the-last-k-numbers/) | [CountingElements.java](./src/leetcode/challenge/CountingElements.java)
-5 | [Happy Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/) | [HappyNumber.java](./src/leetcode/challenge/HappyNumber.java)
-6 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [LastStoneWeight.java](./src/leetcode/challenge/LastStoneWeight.java)
-7 | [Leftmost Column with at Least a One](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3306/) | [LeftmostColumnWithAtLeastOne.java](./src/leetcode/challenge/LeftmostColumnWithAtLeastOne.java)
-8 | [Min Stack](https://leetcode.com/problems/min-stack/) | [MinStack.java](./src/leetcode/challenge/MinStack.java)
-9 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](./src/leetcode/challenge/NumberOfIslands.java)
-10 | [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [PerformStringShifts.java](./src/leetcode/challenge/PerformStringShifts.java)
-11 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/challenge/SingleNumber.java)
+2 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [BitwiseAndOfNumbersRange.java](./src/leetcode/challenge/BitwiseAndOfNumbersRange.java)
+3 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [ConstructBinarySearchTreeFromPreorderTraversal.java](./src/leetcode/challenge/ConstructBinarySearchTreeFromPreorderTraversal.java)
+4 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [ContiguousArray.java](./src/leetcode/challenge/ContiguousArray.java)
+5 | [Counting Elements](https://leetcode.com/problems/product-of-the-last-k-numbers/) | [CountingElements.java](./src/leetcode/challenge/CountingElements.java)
+6 | [Happy Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/) | [HappyNumber.java](./src/leetcode/challenge/HappyNumber.java)
+7 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [LastStoneWeight.java](./src/leetcode/challenge/LastStoneWeight.java)
+8 | [Leftmost Column with at Least a One](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3306/) | [LeftmostColumnWithAtLeastOne.java](./src/leetcode/challenge/LeftmostColumnWithAtLeastOne.java)
+9 | [Min Stack](https://leetcode.com/problems/min-stack/) | [MinStack.java](./src/leetcode/challenge/MinStack.java)
+10 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](./src/leetcode/challenge/NumberOfIslands.java)
+11 | [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [PerformStringShifts.java](./src/leetcode/challenge/PerformStringShifts.java)
+12 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/challenge/SingleNumber.java)
+13 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [ValidParenthesisString.java](./src/leetcode/challenge/ValidParenthesisString.java)
 
 ## Design
 Index | Problem  | My solution |
@@ -83,8 +85,9 @@ Index | Problem  | My solution |
 6 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [DesignStackWithIncrementOperation.java](./src/leetcode/design/DesignStackWithIncrementOperation.java)
 7 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [ImplementQueueUsingStacks.java](./src/leetcode/design/ImplementQueueUsingStacks.java)
 8 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [ImplementStackUsingQueues.java](./src/leetcode/design/ImplementStackUsingQueues.java)
-9 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [InsertDeleteGetRandomO1.java](./src/leetcode/design/InsertDeleteGetRandomO1.java)
-10 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [LRUCache.java](./src/leetcode/design/LRUCache.java)
+9 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [ImplementTriePrefixTree.java](./src/leetcode/design/ImplementTriePrefixTree.java)
+10 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [InsertDeleteGetRandomO1.java](./src/leetcode/design/InsertDeleteGetRandomO1.java)
+11 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [LRUCache.java](./src/leetcode/design/LRUCache.java)
 
 ## Dynamic Programming
 Index | Problem  | My solution |
@@ -202,7 +205,6 @@ Index | Problem  | My solution |
 6 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [RemoveAllAdjacentDuplicatesInString.java](./src/leetcode/stack/RemoveAllAdjacentDuplicatesInString.java)
 7 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [RemoveOutermostParentheses.java](./src/leetcode/stack/RemoveOutermostParentheses.java)
 8 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [ValidParentheses.java](./src/leetcode/stack/ValidParentheses.java)
-9 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [ValidParenthesisString.java](./src/leetcode/stack/ValidParenthesisString.java)
 
 ## String
 Index | Problem  | My solution |
