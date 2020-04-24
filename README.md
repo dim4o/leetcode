@@ -2,18 +2,19 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-234 solved problems from 11 categories:
+239 solved problems from 12 categories:
 * [Backtracking](#backtracking) - 25 problems
 * [Binary Search](#binary-search) - 10 problems
 * [Challenge](#challenge) - 13 problems
-* [Design](#design) - 11 problems
-* [Dynamic Programming](#dynamic-programming) - 19 problems
+* [Design](#design) - 14 problems
+* [Dynamic Programming](#dynamic-programming) - 21 problems
 * [Linkedlist](#linkedlist) - 22 problems
 * [Math](#math) - 5 problems
 * [Others](#others) - 43 problems
 * [Stack](#stack) - 8 problems
 * [String](#string) - 8 problems
-* [Tree](#tree) - 70 problems
+* [Tree](#tree) - 69 problems
+* [Unfinished](#unfinished) - 1 problems
 ## Backtracking
 Index | Problem  | My solution |
 --- | --- | ---
@@ -77,17 +78,20 @@ Index | Problem  | My solution |
 ## Design
 Index | Problem  | My solution |
 --- | --- | ---
-1 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | [DesignCircularDeque.java](./src/leetcode/design/DesignCircularDeque.java)
-2 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [DesignCircularQueue.java](./src/leetcode/design/DesignCircularQueue.java)
-3 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | [DesignHashMap.java](./src/leetcode/design/DesignHashMap.java)
-4 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [DesignHashSet.java](./src/leetcode/design/DesignHashSet.java)
-5 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | [DesignLinkedList.java](./src/leetcode/design/DesignLinkedList.java)
-6 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [DesignStackWithIncrementOperation.java](./src/leetcode/design/DesignStackWithIncrementOperation.java)
-7 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [ImplementQueueUsingStacks.java](./src/leetcode/design/ImplementQueueUsingStacks.java)
-8 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [ImplementStackUsingQueues.java](./src/leetcode/design/ImplementStackUsingQueues.java)
-9 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [ImplementTriePrefixTree.java](./src/leetcode/design/ImplementTriePrefixTree.java)
-10 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [InsertDeleteGetRandomO1.java](./src/leetcode/design/InsertDeleteGetRandomO1.java)
-11 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [LRUCache.java](./src/leetcode/design/LRUCache.java)
+1 | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) | [ConstructQuadTree.java](./src/leetcode/design/ConstructQuadTree.java)
+2 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | [DesignCircularDeque.java](./src/leetcode/design/DesignCircularDeque.java)
+3 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [DesignCircularQueue.java](./src/leetcode/design/DesignCircularQueue.java)
+4 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | [DesignHashMap.java](./src/leetcode/design/DesignHashMap.java)
+5 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [DesignHashSet.java](./src/leetcode/design/DesignHashSet.java)
+6 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | [DesignLinkedList.java](./src/leetcode/design/DesignLinkedList.java)
+7 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [DesignStackWithIncrementOperation.java](./src/leetcode/design/DesignStackWithIncrementOperation.java)
+8 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [FlattenNestedListIterator.java](./src/leetcode/design/FlattenNestedListIterator.java)
+9 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [ImplementQueueUsingStacks.java](./src/leetcode/design/ImplementQueueUsingStacks.java)
+10 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [ImplementStackUsingQueues.java](./src/leetcode/design/ImplementStackUsingQueues.java)
+11 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [ImplementTriePrefixTree.java](./src/leetcode/design/ImplementTriePrefixTree.java)
+12 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [InsertDeleteGetRandomO1.java](./src/leetcode/design/InsertDeleteGetRandomO1.java)
+13 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [LRUCache.java](./src/leetcode/design/LRUCache.java)
+14 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [RangeSumQueryMutable.java](./src/leetcode/design/RangeSumQueryMutable.java)
 
 ## Dynamic Programming
 Index | Problem  | My solution |
@@ -108,9 +112,11 @@ Index | Problem  | My solution |
 14 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | [NumberOfLongestIncreasingSubsequence.java](./src/leetcode/dynamic_programming/NumberOfLongestIncreasingSubsequence.java)
 15 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/solution/) | [PalindromicSubstrings.java](./src/leetcode/dynamic_programming/PalindromicSubstrings.java)
 16 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [PerfectSquares.java](./src/leetcode/dynamic_programming/PerfectSquares.java)
-17 | [Target Sum](https://leetcode.com/problems/target-sum/) | [TargetSum.java](./src/leetcode/dynamic_programming/TargetSum.java)
-18 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [UniquePaths.java](./src/leetcode/dynamic_programming/UniquePaths.java)
-19 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [UniquePaths2.java](./src/leetcode/dynamic_programming/UniquePaths2.java)
+17 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | [RangeSumQueryImmutable.java](./src/leetcode/dynamic_programming/RangeSumQueryImmutable.java)
+18 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [RangeSumQuery2DImmutable.java](./src/leetcode/dynamic_programming/RangeSumQuery2DImmutable.java)
+19 | [Target Sum](https://leetcode.com/problems/target-sum/) | [TargetSum.java](./src/leetcode/dynamic_programming/TargetSum.java)
+20 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [UniquePaths.java](./src/leetcode/dynamic_programming/UniquePaths.java)
+21 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [UniquePaths2.java](./src/leetcode/dynamic_programming/UniquePaths2.java)
 
 ## Linkedlist
 Index | Problem  | My solution |
@@ -287,10 +293,14 @@ Index | Problem  | My solution |
 64 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [SumOfRootToLeafBinaryNumbers.java](./src/leetcode/tree/SumOfRootToLeafBinaryNumbers.java)
 65 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [SymmetricTree.java](./src/leetcode/tree/SymmetricTree.java)
 66 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [TwoSum4InputBST.java](./src/leetcode/tree/TwoSum4InputBST.java)
-67 | [Two sum](https://leetcode.com/problems/two-sum/) | [PathSum.java](./src/leetcode/tree/PathSum.java)
-68 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [UnivaluedBinaryTree.java](./src/leetcode/tree/UnivaluedBinaryTree.java)
-69 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [ValidateBinarySearchTree.java](./src/leetcode/tree/ValidateBinarySearchTree.java)
-70 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/submissions/) | [VerticalOrderTraversalOfBinaryTree.java](./src/leetcode/tree/VerticalOrderTraversalOfBinaryTree.java)
+67 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [UnivaluedBinaryTree.java](./src/leetcode/tree/UnivaluedBinaryTree.java)
+68 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [ValidateBinarySearchTree.java](./src/leetcode/tree/ValidateBinarySearchTree.java)
+69 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/submissions/) | [VerticalOrderTraversalOfBinaryTree.java](./src/leetcode/tree/VerticalOrderTraversalOfBinaryTree.java)
+
+## Unfinished
+Index | Problem  | My solution |
+--- | --- | ---
+1 | [Two sum](https://leetcode.com/problems/two-sum/) | [Test.java](./src/leetcode/unfinished/Test.java)
 
 ---
 **Note:** This file is automatically generated based on the commits and the project structure. Some of the information may be broken due the an inconsistency of the commits and the naming conventions.
