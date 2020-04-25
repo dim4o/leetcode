@@ -50,6 +50,7 @@ def get_edit_distance(first_str, second_str):
     """ Finds the minimum distance between two strings
     :return: the normalized distance
     """
+
     def calc_edit_distance(first_str, second_str):
         rows = len(first_str) + 1
         cols = len(second_str) + 1
@@ -87,12 +88,16 @@ def remove_duplicates(items):
     items.remove(("Reverse LinkedList", "https://leetcode.com/problems/reverse-linked-list/"))
     items.remove(("Counting Elements",
                   "https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/"))
+    items.add(("Product of the Last K Numbers",
+               "https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/"))
     return items
 
 
 if __name__ == '__main__':
     items = parse_commits()
     items = remove_duplicates(items)
+
+    # print(len(items))
 
     all_files_dict = get_all_java_files()
     category_map = defaultdict(list)
@@ -102,6 +107,8 @@ if __name__ == '__main__':
         candidate, local_path, category = find_best_match_class_name(generate_class_name(title), all_files_dict)
         category_map[category].append((title, url, candidate, local_path))
 
+    # category_map.pop("unfinished")
+
     sorted_category_map = {k: category_map[k] for k in sorted(category_map)}
 
     with open("./README.md", 'w') as file:
@@ -110,7 +117,9 @@ if __name__ == '__main__':
         file.write("{} solved problems from {} categories:\n".format(len(items), len(sorted_category_map)))
 
         for category, val in sorted_category_map.items():
-            file.write("* [{}](#{}) - {} problems\n".format(category.title().replace("_", " "), category.replace("_", "-"), len(val)))
+            file.write(
+                "* [{}](#{}) - {} problems\n".format(category.title().replace("_", " "), category.replace("_", "-"),
+                                                     len(val)))
 
         for category, item_list in sorted_category_map.items():
             file.write("## {}\n".format(category.title().replace("_", " ")))
