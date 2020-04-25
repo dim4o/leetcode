@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Sum2 {
+public class TwoSum {
     // Optimal solution with linear time complexity O(n)
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -39,7 +39,7 @@ public class Sum2 {
     }
 
     public static void main(String[] args) {
-        Sum2 sln = new Sum2();
+        TwoSum sln = new TwoSum();
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
         
