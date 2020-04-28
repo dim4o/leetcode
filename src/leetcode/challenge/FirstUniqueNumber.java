@@ -37,6 +37,55 @@ public class FirstUniqueNumber {
         }
     }
 
+    class FirstUnique_var {
+        class Node {
+            int val;
+            Node prev;
+            Node next;
+
+            Node(int val) {
+                this.val = val;
+            }
+        }
+
+        Node head = new Node(-1);
+        Node tail = new Node(-1);
+        private final Map<Integer, Node> map = new HashMap<>();
+
+        public FirstUnique_var(int[] nums) {
+            head.next = tail;
+            tail.prev = head;
+            for (int num : nums)
+                add(num);
+        }
+
+        public int showFirstUnique() {
+            if (head.next == null)
+                return -1;
+            return head.next.val;
+        }
+
+        public void add(int value) {
+            if (!map.containsKey(value)) {
+                // append a new node to the list
+                Node newNode = new Node(value);
+                Node prev = tail.prev;
+                tail.prev = newNode;
+                newNode.next = tail;
+                newNode.prev = prev;
+                prev.next = newNode;
+                
+                map.put(value, newNode);
+            } else if (map.get(value) != null) {
+                // remove a node from the list
+                Node nodeToRemove = map.remove(value);
+                nodeToRemove.prev.next = nodeToRemove.next;
+                nodeToRemove.next.prev = nodeToRemove.prev;
+                map.put(value, null);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         FirstUnique fu = new FirstUniqueNumber().new FirstUnique(new int[] { 2, 3, 5 });
 
