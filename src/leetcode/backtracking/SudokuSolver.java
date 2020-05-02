@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class SudokuSolver {
-    // TODO: You may try to substitute the below maps with arrays for better performence
+    // TODO: You may try to substitute the below maps with arrays for better performance
     private Map<Integer, Set<Character>> hMap = new HashMap<Integer, Set<Character>>();
     private Map<Integer, Set<Character>> vMap = new HashMap<Integer, Set<Character>>();
     private Map<Integer, Set<Character>> cMap = new HashMap<Integer, Set<Character>>();
