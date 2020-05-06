@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
         for category, item_list in sorted_category_map.items():
             file.write("## {}\n".format(category.title().replace("_", " ")))
-            file.write("Index | Problem  | My solution |\n")
+            file.write("Index | Problem Description | My Solution |\n")
             file.write("--- | --- | ---\n")
 
             item_list = sorted(item_list, key=lambda x: x[0])
