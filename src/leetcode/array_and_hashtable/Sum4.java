@@ -2,8 +2,9 @@
 // are there elements a, b, c, and d in nums such that a + b + c + d = target? 
 // Find all unique quadruplets in the array which gives the sum of target.
 // The solution set must not contain duplicate quadruplets.
+// See: https://leetcode.com/problems/4sum/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.ArrayList;
 import java.util.Arrays;

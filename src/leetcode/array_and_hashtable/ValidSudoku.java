@@ -5,7 +5,7 @@
 //   - Each of the 9 3x3 sub-boxes of the grid must contain the digits 1-9 without repetition.
 // See: https://leetcode.com/problems/valid-sudoku/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.HashMap;
 import java.util.HashSet;

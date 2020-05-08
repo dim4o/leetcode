@@ -1,7 +1,7 @@
 // Count the number of prime numbers less than a non-negative number, n.
 // See: https://leetcode.com/problems/count-primes/
 
-package leetcode.others;
+package leetcode.math;
 
 public class CountPrimes {
 

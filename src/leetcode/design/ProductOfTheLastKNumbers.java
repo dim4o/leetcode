@@ -9,7 +9,7 @@
 // See: https://leetcode.com/problems/product-of-the-last-k-numbers/
 // See: https://leetcode.com/problems/product-of-the-last-k-numbers/discuss/567493/Java-Intuitive-Solution-with-List
 
-package leetcode.others;
+package leetcode.design;
 
 import java.util.ArrayList;
 import java.util.List;

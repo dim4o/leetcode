@@ -2,7 +2,7 @@
 // longest continuous increasing subsequence (subarray).
 // See: https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 public class LongestContinuousIncreasingSubsequence {
     public int findLengthOfLCIS(int[] nums) {

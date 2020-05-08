@@ -4,9 +4,7 @@
 // you must do this by modifying the input array in-place with O(1) extra memory.
 // See: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
-package leetcode.others;
-
-import java.util.Arrays;
+package leetcode.array_and_hashtable;
 
 public class RemoveDuplicatesFromSortedArray {
 
@@ -20,7 +18,7 @@ public class RemoveDuplicatesFromSortedArray {
                 nums[pos++] = nums[i++];
         }
         
-        System.out.println(Arrays.toString(nums));
+        // System.out.println(Arrays.toString(nums));
 
         return pos;
     }

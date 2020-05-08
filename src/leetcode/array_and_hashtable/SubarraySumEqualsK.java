@@ -2,7 +2,7 @@
 // the total number of continuous subarrays whose sum equals to k.
 // See: https://leetcode.com/problems/subarray-sum-equals-k/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.HashMap;
 import java.util.Map;

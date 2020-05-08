@@ -1,7 +1,7 @@
 // Given a collection of intervals, merge all overlapping intervals.
 // See: https://leetcode.com/problems/merge-intervals/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.ArrayList;
 import java.util.Arrays;

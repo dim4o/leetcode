@@ -2,7 +2,7 @@
 // while maintaining the relative order of the non-zero elements.
 // See: https://leetcode.com/problems/move-zeroes/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 public class MoveZeroes {
 

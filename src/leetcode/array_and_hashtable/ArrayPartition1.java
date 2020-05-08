@@ -2,7 +2,7 @@
 // say (a1, b1), (a2, b2), ..., (an, bn) which makes sum of min(ai, bi) for all i from 1 to n as large as possible.
 // See: https://leetcode.com/problems/array-partition-i/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.Arrays;
 

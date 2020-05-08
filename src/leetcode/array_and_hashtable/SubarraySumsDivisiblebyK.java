@@ -2,7 +2,7 @@
 // subarrays that have a sum divisible by K.
 // See: https://leetcode.com/problems/subarray-sums-divisible-by-k/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.HashMap;
 import java.util.Map;

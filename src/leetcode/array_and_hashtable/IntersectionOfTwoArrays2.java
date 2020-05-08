@@ -1,7 +1,7 @@
 // Given two arrays, write a function to compute their intersection.
 // See: https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.ArrayList;
 import java.util.Arrays;

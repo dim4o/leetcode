@@ -3,7 +3,7 @@
 // And you need to output the maximum average value.
 // See: https://leetcode.com/problems/maximum-average-subarray-i/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 public class MaximumAverageSubarray1 {
     public double findMaxAverage(int[] nums, int k) {

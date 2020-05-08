@@ -3,7 +3,7 @@
 // Find all the elements that appear twice in this array.
 // See: https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -11,16 +11,8 @@ import java.util.List;
 import java.util.Set;
 
 public class FindAllDuplicatesInAnArray {
-    // TODO: O(N) time, O(1) space solution
-    public List<Integer> findDuplicates(int[] nums) {
-        List<Integer> ans = new ArrayList<>();
-        
-
-        return ans;
-    }
-
     // O(N) time, O(N) space solution, but faster
-    public List<Integer> findDuplicates2(int[] nums) {
+    public List<Integer> findDuplicates(int[] nums) {
         List<Integer> ans = new ArrayList<>();
         boolean[] used = new boolean[nums.length];
         for (int i = 0; i < nums.length; i++)

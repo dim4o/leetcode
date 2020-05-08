@@ -6,8 +6,9 @@
 // Follow up:
 // Could you solve it with constant space complexity? 
 // (The output array does not count as extra space for the purpose of space complexity analysis.)
+// See: https://leetcode.com/problems/product-of-array-except-self/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.Arrays;
 

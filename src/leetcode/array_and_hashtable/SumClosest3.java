@@ -4,7 +4,7 @@
 // each input would have exactly one solution.
 // See: https://leetcode.com/problems/3sum-closest/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.Arrays;
 

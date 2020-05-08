@@ -7,7 +7,7 @@
 //   You may assume that each input would have exactly one solution and you may not use the same element twice.
 // See: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.Arrays;
 

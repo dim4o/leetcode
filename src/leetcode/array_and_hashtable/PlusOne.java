@@ -1,12 +1,12 @@
-package leetcode.others;
+// Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
+// See: https://leetcode.com/problems/plus-one/
+
+package leetcode.array_and_hashtable;
 
 import java.util.Arrays;
 
-// Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
-// See: https://leetcode.com/problems/plus-one/
-// TODO: Update with more simple and clear solution
-
 public class PlusOne {
+    // TODO: Update with more simple and clear solution
     public int[] plusOne(int[] digits) {
         if (digits[digits.length - 1] < 9) {
             digits[digits.length - 1]++;

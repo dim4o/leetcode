@@ -1,7 +1,7 @@
 // Given a string, sort it in decreasing order based on the frequency of characters.
 // See: https://leetcode.com/problems/sort-characters-by-frequency/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.ArrayList;
 import java.util.Collections;

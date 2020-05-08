@@ -7,7 +7,7 @@
 // See: https://leetcode.com/problems/remove-element/
 // Almost the same problem is here: See: https://leetcode.com/problems/move-zeroes/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 public class RemoveElement {
 

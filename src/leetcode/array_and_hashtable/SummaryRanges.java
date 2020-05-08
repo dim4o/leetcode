@@ -1,7 +1,7 @@
 // Given a sorted integer array without duplicates, return the summary of its ranges.
 // See: https://leetcode.com/problems/summary-ranges/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.LinkedList;
 import java.util.List;

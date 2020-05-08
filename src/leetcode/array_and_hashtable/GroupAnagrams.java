@@ -1,7 +1,7 @@
 // Given an array of strings, group anagrams together.
 // See: https://leetcode.com/problems/group-anagrams/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.Arrays;
 import java.util.HashMap;

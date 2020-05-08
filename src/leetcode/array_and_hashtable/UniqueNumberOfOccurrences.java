@@ -2,7 +2,7 @@
 // the number of occurrences of each value in the array is unique.
 // See: https://leetcode.com/problems/unique-number-of-occurrences/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.HashMap;
 import java.util.HashSet;

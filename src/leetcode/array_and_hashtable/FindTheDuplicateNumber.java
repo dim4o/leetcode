@@ -3,7 +3,7 @@
 // find the duplicate one.
 // See: https://leetcode.com/problems/find-the-duplicate-number/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.Arrays;
 

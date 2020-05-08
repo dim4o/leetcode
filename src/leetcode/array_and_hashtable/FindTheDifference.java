@@ -4,7 +4,7 @@
 // See: https://leetcode.com/problems/find-the-difference/
 // See: https://leetcode.com/problems/find-the-difference/discuss/598348/Java-Fast-and-Concise
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 public class FindTheDifference {
    
