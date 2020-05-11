@@ -3,7 +3,7 @@
 // Could you implement it without using extra memory?
 // See: https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3283/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.HashMap;
 import java.util.Map;

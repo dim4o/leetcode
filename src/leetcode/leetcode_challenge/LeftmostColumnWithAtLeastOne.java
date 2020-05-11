@@ -6,7 +6,7 @@
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3306/
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3306/discuss/590632/Java-Two-solutions
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.ArrayList;
 import java.util.List;

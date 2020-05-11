@@ -7,7 +7,7 @@
 // Return the final string after all operations.
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.Arrays;
 import java.util.Deque;

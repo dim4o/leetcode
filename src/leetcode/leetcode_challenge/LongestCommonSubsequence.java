@@ -7,7 +7,7 @@
 // See: https://leetcode.com/problems/longest-common-subsequence/
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/531/week-4/3311/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 public class LongestCommonSubsequence {
     // Bottom-Up dynamic programming.

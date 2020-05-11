@@ -4,7 +4,7 @@
 // of all values of the nodes along a path results in a sequence in the given binary tree.
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/532/week-5/3315/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import leetcode.util.tree.TreeNode;
 

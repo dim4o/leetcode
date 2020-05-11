@@ -2,7 +2,7 @@
 // If there're duplicates in arr, count them separately.
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.HashSet;
 import java.util.Set;

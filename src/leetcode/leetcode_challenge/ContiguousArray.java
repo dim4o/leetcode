@@ -3,7 +3,7 @@
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3298/
 // See: https://leetcode.com/problems/contiguous-array/discuss/577436/Java-Simple-O(n)-Solution
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.HashMap;
 import java.util.Map;

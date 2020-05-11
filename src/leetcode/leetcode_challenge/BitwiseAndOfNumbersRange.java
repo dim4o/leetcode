@@ -2,7 +2,7 @@
 // See: https://leetcode.com/problems/bitwise-and-of-numbers-range/
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/531/week-4/3308/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 public class BitwiseAndOfNumbersRange {
     

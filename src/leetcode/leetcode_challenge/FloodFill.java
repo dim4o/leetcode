@@ -10,7 +10,7 @@
 // See: https://leetcode.com/problems/flood-fill/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3326/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.Arrays;
 

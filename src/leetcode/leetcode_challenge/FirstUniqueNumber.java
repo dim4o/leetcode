@@ -4,7 +4,7 @@
 //   - int showFirstUnique() returns the value of the first unique integer of the queue, and returns -1 if there is no such integer.
 //   - void add(int value) insert value to the queue.
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.HashMap;
 import java.util.LinkedList;

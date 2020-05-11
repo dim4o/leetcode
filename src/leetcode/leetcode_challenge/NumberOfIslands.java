@@ -4,7 +4,7 @@
 // See: https://leetcode.com/problems/number-of-islands/
 // See: https://leetcode.com/problems/number-of-islands/discuss/583559/Java-Very-Simple-DFS
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.Arrays;
 

@@ -9,7 +9,7 @@
 // See: https://leetcode.com/problems/find-the-town-judge/
 // https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3325/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.ArrayList;
 import java.util.HashMap;

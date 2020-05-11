@@ -2,7 +2,7 @@
 // See: https://leetcode.com/problems/first-unique-character-in-a-string/solution/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3320/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 public class FirstUniqueCharacterinString {
     

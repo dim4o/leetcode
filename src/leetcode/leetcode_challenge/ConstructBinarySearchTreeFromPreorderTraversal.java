@@ -2,7 +2,7 @@
 // See: https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3305/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import static leetcode.util.tree.BinTreeUtil.*;
 

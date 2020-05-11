@@ -6,7 +6,7 @@
 // Those numbers for which this process ends in 1 are happy numbers.
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/
 
-package leetcode.challenge;
+package leetcode.leetcode_challenge;
 
 import java.util.HashSet;
 import java.util.Set;
