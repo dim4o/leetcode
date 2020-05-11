@@ -6,9 +6,9 @@
 * [Array And Hashtable](#array-and-hashtable) - 33 problems
 * [Backtracking](#backtracking) - 31 problems
 * [Binary Search](#binary-search) - 12 problems
-* [Challenge](#challenge) - 24 problems
 * [Design](#design) - 15 problems
 * [Dynamic Programming](#dynamic-programming) - 23 problems
+* [Leetcode Challenge](#leetcode-challenge) - 24 problems
 * [Linkedlist](#linkedlist) - 23 problems
 * [Math](#math) - 14 problems
 * [Others](#others) - 23 problems
@@ -103,34 +103,6 @@ Index | Problem Description | My Solution |
 11 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [SearchInRotatedSortedArray2.java](./src/leetcode/binary_search/SearchInRotatedSortedArray2.java)
 12 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [TimeBasedKeyValueStore.java](./src/leetcode/binary_search/TimeBasedKeyValueStore.java)
 
-## Challenge
-Index | Problem Description | My Solution |
---- | --- | ---
-1 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [BackspaceStringCompare.java](./src/leetcode/challenge/BackspaceStringCompare.java)
-2 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [BitwiseAndOfNumbersRange.java](./src/leetcode/challenge/BitwiseAndOfNumbersRange.java)
-3 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/532/week-5/3315/) | [CheckIfStringIsValidSequenceFromRootToLeavesPath.java](./src/leetcode/challenge/CheckIfStringIsValidSequenceFromRootToLeavesPath.java)
-4 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [ConstructBinarySearchTreeFromPreorderTraversal.java](./src/leetcode/challenge/ConstructBinarySearchTreeFromPreorderTraversal.java)
-5 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [ContiguousArray.java](./src/leetcode/challenge/ContiguousArray.java)
-6 | [Counting Elements](https://leetcode.com/problems/product-of-the-last-k-numbers/) | [CountingElements.java](./src/leetcode/challenge/CountingElements.java)
-7 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [FindTheTownJudge.java](./src/leetcode/challenge/FindTheTownJudge.java)
-8 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/solution/) | [FirstUniqueCharacterinString.java](./src/leetcode/challenge/FirstUniqueCharacterinString.java)
-9 | [First Unique Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/531/week-4/3313/) | [FirstUniqueNumber.java](./src/leetcode/challenge/FirstUniqueNumber.java)
-10 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [FloodFill.java](./src/leetcode/challenge/FloodFill.java)
-11 | [Happy Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/) | [HappyNumber.java](./src/leetcode/challenge/HappyNumber.java)
-12 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [JewelsAndStones.java](./src/leetcode/challenge/JewelsAndStones.java)
-13 | [Jump Game](https://leetcode.com/problems/jump-game/) | [JumpGame.java](./src/leetcode/challenge/JumpGame.java)
-14 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [LastStoneWeight.java](./src/leetcode/challenge/LastStoneWeight.java)
-15 | [Leftmost Column with at Least a One](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3306/) | [LeftmostColumnWithAtLeastOne.java](./src/leetcode/challenge/LeftmostColumnWithAtLeastOne.java)
-16 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [LongestCommonSubsequence.java](./src/leetcode/challenge/LongestCommonSubsequence.java)
-17 | [Majority Element](https://leetcode.com/problems/majority-element/) | [MajorityElement.java](./src/leetcode/challenge/MajorityElement.java)
-18 | [Min Stack](https://leetcode.com/problems/min-stack/) | [MinStack.java](./src/leetcode/challenge/MinStack.java)
-19 | [Number Complement](https://leetcode.com/problems/number-complement/) | [NumberComplement.java](./src/leetcode/challenge/NumberComplement.java)
-20 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](./src/leetcode/challenge/NumberOfIslands.java)
-21 | [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [PerformStringShifts.java](./src/leetcode/challenge/PerformStringShifts.java)
-22 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [RansomNote.java](./src/leetcode/challenge/RansomNote.java)
-23 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/challenge/SingleNumber.java)
-24 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [ValidParenthesisString.java](./src/leetcode/challenge/ValidParenthesisString.java)
-
 ## Design
 Index | Problem Description | My Solution |
 --- | --- | ---
@@ -176,6 +148,34 @@ Index | Problem Description | My Solution |
 21 | [Target Sum](https://leetcode.com/problems/target-sum/) | [TargetSum.java](./src/leetcode/dynamic_programming/TargetSum.java)
 22 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [UniquePaths.java](./src/leetcode/dynamic_programming/UniquePaths.java)
 23 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [UniquePaths2.java](./src/leetcode/dynamic_programming/UniquePaths2.java)
+
+## Leetcode Challenge
+Index | Problem Description | My Solution |
+--- | --- | ---
+1 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [BackspaceStringCompare.java](./src/leetcode/leetcode_challenge/BackspaceStringCompare.java)
+2 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [BitwiseAndOfNumbersRange.java](./src/leetcode/leetcode_challenge/BitwiseAndOfNumbersRange.java)
+3 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/532/week-5/3315/) | [CheckIfStringIsValidSequenceFromRootToLeavesPath.java](./src/leetcode/leetcode_challenge/CheckIfStringIsValidSequenceFromRootToLeavesPath.java)
+4 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [ConstructBinarySearchTreeFromPreorderTraversal.java](./src/leetcode/leetcode_challenge/ConstructBinarySearchTreeFromPreorderTraversal.java)
+5 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [ContiguousArray.java](./src/leetcode/leetcode_challenge/ContiguousArray.java)
+6 | [Counting Elements](https://leetcode.com/problems/product-of-the-last-k-numbers/) | [CountingElements.java](./src/leetcode/leetcode_challenge/CountingElements.java)
+7 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [FindTheTownJudge.java](./src/leetcode/leetcode_challenge/FindTheTownJudge.java)
+8 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/solution/) | [FirstUniqueCharacterinString.java](./src/leetcode/leetcode_challenge/FirstUniqueCharacterinString.java)
+9 | [First Unique Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/531/week-4/3313/) | [FirstUniqueNumber.java](./src/leetcode/leetcode_challenge/FirstUniqueNumber.java)
+10 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [FloodFill.java](./src/leetcode/leetcode_challenge/FloodFill.java)
+11 | [Happy Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/) | [HappyNumber.java](./src/leetcode/leetcode_challenge/HappyNumber.java)
+12 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [JewelsAndStones.java](./src/leetcode/leetcode_challenge/JewelsAndStones.java)
+13 | [Jump Game](https://leetcode.com/problems/jump-game/) | [JumpGame.java](./src/leetcode/leetcode_challenge/JumpGame.java)
+14 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [LastStoneWeight.java](./src/leetcode/leetcode_challenge/LastStoneWeight.java)
+15 | [Leftmost Column with at Least a One](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3306/) | [LeftmostColumnWithAtLeastOne.java](./src/leetcode/leetcode_challenge/LeftmostColumnWithAtLeastOne.java)
+16 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [LongestCommonSubsequence.java](./src/leetcode/leetcode_challenge/LongestCommonSubsequence.java)
+17 | [Majority Element](https://leetcode.com/problems/majority-element/) | [MajorityElement.java](./src/leetcode/leetcode_challenge/MajorityElement.java)
+18 | [Min Stack](https://leetcode.com/problems/min-stack/) | [MinStack.java](./src/leetcode/leetcode_challenge/MinStack.java)
+19 | [Number Complement](https://leetcode.com/problems/number-complement/) | [NumberComplement.java](./src/leetcode/leetcode_challenge/NumberComplement.java)
+20 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](./src/leetcode/leetcode_challenge/NumberOfIslands.java)
+21 | [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [PerformStringShifts.java](./src/leetcode/leetcode_challenge/PerformStringShifts.java)
+22 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [RansomNote.java](./src/leetcode/leetcode_challenge/RansomNote.java)
+23 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/leetcode_challenge/SingleNumber.java)
+24 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [ValidParenthesisString.java](./src/leetcode/leetcode_challenge/ValidParenthesisString.java)
 
 ## Linkedlist
 Index | Problem Description | My Solution |
@@ -320,8 +320,8 @@ Index | Problem Description | My Solution |
 36 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [LeafSimilarTrees.java](./src/leetcode/tree/LeafSimilarTrees.java)
 37 | [Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [LowestCommonAncestorOfDeepestLeaves.java](./src/leetcode/tree/LowestCommonAncestorOfDeepestLeaves.java)
 38 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [LowestCommonAncestorOfBinarySearchTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinarySearchTree.java)
-39 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
-40 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
+39 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
+40 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
 41 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [MaximumBinaryTree.java](./src/leetcode/tree/MaximumBinaryTree.java)
 42 | [Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/submissions/) | [MaximumBinaryTree2.java](./src/leetcode/tree/MaximumBinaryTree2.java)
 43 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [MaximumDepthOfBinaryTree.java](./src/leetcode/tree/MaximumDepthOfBinaryTree.java)
