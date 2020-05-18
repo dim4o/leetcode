@@ -4,7 +4,7 @@
 // See: https://leetcode.com/problems/find-all-anagrams-in-a-string/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3332/
 
-package leetcode.array_and_hashtable;
+package leetcode.leetcode_challenge;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -50,8 +50,9 @@ public class FindAllAnagramsInString {
     }
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-
+        FindAllAnagramsInString sln = new FindAllAnagramsInString();
+        System.out.println(sln.findAnagrams("cbaebabacd", "abc"));
+        System.out.println(sln.findAnagrams("abab", "ab"));
     }
 
 }
