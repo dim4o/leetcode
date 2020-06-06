@@ -5,7 +5,7 @@
 // See: https://leetcode.com/problems/jewels-and-stones/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317/
 
-package leetcode.leetcode_challenge;
+package leetcode.array_and_hashtable;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -4,7 +4,7 @@
 // See: https://leetcode.com/problems/odd-even-linked-list/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3331/
 
-package leetcode.leetcode_challenge;
+package leetcode.linkedlist;
 
 import static leetcode.util.linkedlist.LinkedListUtil.*;
 

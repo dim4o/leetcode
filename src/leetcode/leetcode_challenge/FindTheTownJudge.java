@@ -7,7 +7,7 @@
 // that the person labeled a trusts the person labelled b.
 // If the town judge exists and can be identified, return the label of the town judge.  Otherwise, return -1.
 // See: https://leetcode.com/problems/find-the-town-judge/
-// https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3325/
+// See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3325/
 
 package leetcode.leetcode_challenge;
 

@@ -6,7 +6,7 @@
 // See: https://leetcode.com/problems/remove-k-digits/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3328/
 
-package leetcode.leetcode_challenge;
+package leetcode.stack;
 
 import java.util.Stack;
 

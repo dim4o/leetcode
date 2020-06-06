@@ -3,10 +3,11 @@
 // Starting with any positive integer, replace the number by the sum of the squares of its digits, 
 // and repeat the process until the number equals 1 (where it will stay), 
 // or it loops endlessly in a cycle which does not include 1. 
-// Those numbers for which this process ends in 1 are happy numbers.
+// Those numbers for which this process ends in 1 are happy numbers.\
+// See: https://leetcode.com/problems/happy-number/
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/
 
-package leetcode.leetcode_challenge;
+package leetcode.math;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -9,7 +9,7 @@
 // See: https://leetcode.com/problems/valid-parenthesis-string/
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3301/
 
-package leetcode.leetcode_challenge;
+package leetcode.string;
 
 public class ValidParenthesisString {
     // Recursive solution.

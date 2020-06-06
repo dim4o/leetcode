@@ -6,7 +6,7 @@
 // See: https://leetcode.com/problems/min-stack/
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3292/
 
-package leetcode.leetcode_challenge;
+package leetcode.stack;
 
 import java.util.Stack;
 

@@ -4,7 +4,7 @@
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3327/
 // See: https://leetcode.com/problems/single-element-in-a-sorted-array/discuss/627867/Java-Concise-Binary-Search
 
-package leetcode.leetcode_challenge;
+package leetcode.binary_search;
 
 public class SingleElementInSortedArray {
     public int singleNonDuplicate(int[] nums) {

@@ -2,7 +2,7 @@
 // # means a backspace character.
 // See: https://leetcode.com/problems/backspace-string-compare/
 
-package leetcode.leetcode_challenge;
+package leetcode.stack;
 
 import java.util.Stack;
 
