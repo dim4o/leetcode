@@ -4,7 +4,7 @@
 // See: https://leetcode.com/problems/single-number/
 // See: https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3283/
 
-package leetcode.leetcode_challenge;
+package leetcode.others;
 
 import java.util.HashMap;
 import java.util.HashSet;

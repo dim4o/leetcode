@@ -6,7 +6,7 @@
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/538/week-5-may-29th-may-31st/3344/
 // See: https://leetcode.com/problems/course-schedule/discuss/658987/Java-Clean-DFS-solution
 
-package leetcode.leetcode_challenge;
+package leetcode.others;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -6,7 +6,7 @@
 //   - See: https://leetcode.com/problems/find-all-anagrams-in-a-string/
 //   - See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3332/
 
-package leetcode.leetcode_challenge;
+package leetcode.others;
 
 public class PermutationInString {
     

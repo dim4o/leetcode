@@ -4,7 +4,7 @@
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/
 // See: https://leetcode.com/problems/number-complement/discuss/612426/Java-1-Liner-Solution
 
-package leetcode.leetcode_challenge;
+package leetcode.others;
 
 public class NumberComplement {
     public int findComplement(int num) {

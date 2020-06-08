@@ -5,7 +5,7 @@
 // See: https://leetcode.com/problems/k-closest-points-to-origin/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/538/week-5-may-29th-may-31st/3345/
 
-package leetcode.leetcode_challenge;
+package leetcode.others;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;

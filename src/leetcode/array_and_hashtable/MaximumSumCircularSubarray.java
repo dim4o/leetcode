@@ -2,7 +2,7 @@
 // See: https://leetcode.com/problems/maximum-sum-circular-subarray/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3330/
 
-package leetcode.leetcode_challenge;
+package leetcode.array_and_hashtable;
 
 public class MaximumSumCircularSubarray {
     

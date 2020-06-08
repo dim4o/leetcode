@@ -8,7 +8,7 @@
 // See: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3297/
 // See: https://leetcode.com/problems/last-stone-weight/discuss/575581/Java-O(n)-Time-Solution
 
-package leetcode.leetcode_challenge;
+package leetcode.others;
 
 import java.util.Collections;
 import java.util.PriorityQueue;

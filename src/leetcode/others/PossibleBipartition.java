@@ -6,7 +6,7 @@
 // See: https://leetcode.com/problems/possible-bipartition/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/537/week-4-may-22nd-may-28th/3342/
 
-package leetcode.leetcode_challenge;
+package leetcode.others;
 
 import java.util.HashMap;
 import java.util.LinkedList;
