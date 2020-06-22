@@ -2,15 +2,15 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-364 solved problems from 11 categories:
+366 solved problems from 11 categories:
 * [Array And Hashtable](#array-and-hashtable) - 52 problems
 * [Backtracking](#backtracking) - 31 problems
 * [Binary Search](#binary-search) - 18 problems
 * [Design](#design) - 16 problems
-* [Dynamic Programming](#dynamic-programming) - 40 problems
+* [Dynamic Programming](#dynamic-programming) - 41 problems
 * [Linkedlist](#linkedlist) - 25 problems
 * [Math](#math) - 21 problems
-* [Others](#others) - 47 problems
+* [Others](#others) - 48 problems
 * [Stack](#stack) - 14 problems
 * [String](#string) - 15 problems
 * [Tree](#tree) - 85 problems
@@ -161,35 +161,36 @@ Index | Problem Description | My Solution |
 9 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [HouseRobber2.java](./src/leetcode/dynamic_programming/HouseRobber2.java)
 10 | [Jump Game](https://leetcode.com/problems/jump-game/) | [JumpGame.java](./src/leetcode/dynamic_programming/JumpGame.java)
 11 | [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | [KnightProbabilityInChessboard.java](./src/leetcode/dynamic_programming/KnightProbabilityInChessboard.java)
-12 | [Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence/) | [LongestArithmeticSequence.java](./src/leetcode/dynamic_programming/LongestArithmeticSequence.java)
-13 | [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) | [LongestArithmeticSubsequenceOfGivenDifference.java](./src/leetcode/dynamic_programming/LongestArithmeticSubsequenceOfGivenDifference.java)
-14 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [LongestCommonSubsequence.java](./src/leetcode/dynamic_programming/LongestCommonSubsequence.java)
-15 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [LongestIncreasingSubsequence.java](./src/leetcode/dynamic_programming/LongestIncreasingSubsequence.java)
-16 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [LongestPalindromicSubsequence.java](./src/leetcode/dynamic_programming/LongestPalindromicSubsequence.java)
-17 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [LongestPalindromicSubstring.java](./src/leetcode/dynamic_programming/LongestPalindromicSubstring.java)
-18 | [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/) | [MatrixBlockSum.java](./src/leetcode/dynamic_programming/MatrixBlockSum.java)
-19 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [MaximalSquare.java](./src/leetcode/dynamic_programming/MaximalSquare.java)
-20 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) | [MaximumLengthOfPairChain.java](./src/leetcode/dynamic_programming/MaximumLengthOfPairChain.java)
-21 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [MaximumProductSubarray.java](./src/leetcode/dynamic_programming/MaximumProductSubarray.java)
-22 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [MaximumSubarray.java](./src/leetcode/dynamic_programming/MaximumSubarray.java)
-23 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [MinCostClimbingStairs.java](./src/leetcode/dynamic_programming/MinCostClimbingStairs.java)
-24 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [MinimumFallingPathSum.java](./src/leetcode/dynamic_programming/MinimumFallingPathSum.java)
-25 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [MinimumPathSum.java](./src/leetcode/dynamic_programming/MinimumPathSum.java)
-26 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [NthTribonacciNumber.java](./src/leetcode/dynamic_programming/NthTribonacciNumber.java)
-27 | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [NumberOfDiceRollsWithTargetSum.java](./src/leetcode/dynamic_programming/NumberOfDiceRollsWithTargetSum.java)
-28 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | [NumberOfLongestIncreasingSubsequence.java](./src/leetcode/dynamic_programming/NumberOfLongestIncreasingSubsequence.java)
-29 | [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | [OutOfBoundaryPaths.java](./src/leetcode/dynamic_programming/OutOfBoundaryPaths.java)
-30 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/solution/) | [PalindromicSubstrings.java](./src/leetcode/dynamic_programming/PalindromicSubstrings.java)
-31 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [PartitionEqualSubsetSum.java](./src/leetcode/dynamic_programming/PartitionEqualSubsetSum.java)
-32 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [PerfectSquares.java](./src/leetcode/dynamic_programming/PerfectSquares.java)
-33 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | [RangeSumQueryImmutable.java](./src/leetcode/dynamic_programming/RangeSumQueryImmutable.java)
-34 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [RangeSumQuery2DImmutable.java](./src/leetcode/dynamic_programming/RangeSumQuery2DImmutable.java)
-35 | [Target Sum](https://leetcode.com/problems/target-sum/) | [TargetSum.java](./src/leetcode/dynamic_programming/TargetSum.java)
-36 | [Triangle](https://leetcode.com/problems/triangle/) | [Triangle.java](./src/leetcode/dynamic_programming/Triangle.java)
-37 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | [UncrossedLines.java](./src/leetcode/dynamic_programming/UncrossedLines.java)
-38 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [UniquePaths.java](./src/leetcode/dynamic_programming/UniquePaths.java)
-39 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [UniquePaths2.java](./src/leetcode/dynamic_programming/UniquePaths2.java)
-40 | [Word Break](https://leetcode.com/problems/word-break/) | [WordBreak.java](./src/leetcode/dynamic_programming/WordBreak.java)
+12 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [LargestDivisibleSubset.java](./src/leetcode/dynamic_programming/LargestDivisibleSubset.java)
+13 | [Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence/) | [LongestArithmeticSequence.java](./src/leetcode/dynamic_programming/LongestArithmeticSequence.java)
+14 | [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) | [LongestArithmeticSubsequenceOfGivenDifference.java](./src/leetcode/dynamic_programming/LongestArithmeticSubsequenceOfGivenDifference.java)
+15 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [LongestCommonSubsequence.java](./src/leetcode/dynamic_programming/LongestCommonSubsequence.java)
+16 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [LongestIncreasingSubsequence.java](./src/leetcode/dynamic_programming/LongestIncreasingSubsequence.java)
+17 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [LongestPalindromicSubsequence.java](./src/leetcode/dynamic_programming/LongestPalindromicSubsequence.java)
+18 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [LongestPalindromicSubstring.java](./src/leetcode/dynamic_programming/LongestPalindromicSubstring.java)
+19 | [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/) | [MatrixBlockSum.java](./src/leetcode/dynamic_programming/MatrixBlockSum.java)
+20 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [MaximalSquare.java](./src/leetcode/dynamic_programming/MaximalSquare.java)
+21 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) | [MaximumLengthOfPairChain.java](./src/leetcode/dynamic_programming/MaximumLengthOfPairChain.java)
+22 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [MaximumProductSubarray.java](./src/leetcode/dynamic_programming/MaximumProductSubarray.java)
+23 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [MaximumSubarray.java](./src/leetcode/dynamic_programming/MaximumSubarray.java)
+24 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [MinCostClimbingStairs.java](./src/leetcode/dynamic_programming/MinCostClimbingStairs.java)
+25 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [MinimumFallingPathSum.java](./src/leetcode/dynamic_programming/MinimumFallingPathSum.java)
+26 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [MinimumPathSum.java](./src/leetcode/dynamic_programming/MinimumPathSum.java)
+27 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [NthTribonacciNumber.java](./src/leetcode/dynamic_programming/NthTribonacciNumber.java)
+28 | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [NumberOfDiceRollsWithTargetSum.java](./src/leetcode/dynamic_programming/NumberOfDiceRollsWithTargetSum.java)
+29 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | [NumberOfLongestIncreasingSubsequence.java](./src/leetcode/dynamic_programming/NumberOfLongestIncreasingSubsequence.java)
+30 | [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | [OutOfBoundaryPaths.java](./src/leetcode/dynamic_programming/OutOfBoundaryPaths.java)
+31 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/solution/) | [PalindromicSubstrings.java](./src/leetcode/dynamic_programming/PalindromicSubstrings.java)
+32 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [PartitionEqualSubsetSum.java](./src/leetcode/dynamic_programming/PartitionEqualSubsetSum.java)
+33 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [PerfectSquares.java](./src/leetcode/dynamic_programming/PerfectSquares.java)
+34 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | [RangeSumQueryImmutable.java](./src/leetcode/dynamic_programming/RangeSumQueryImmutable.java)
+35 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [RangeSumQuery2DImmutable.java](./src/leetcode/dynamic_programming/RangeSumQuery2DImmutable.java)
+36 | [Target Sum](https://leetcode.com/problems/target-sum/) | [TargetSum.java](./src/leetcode/dynamic_programming/TargetSum.java)
+37 | [Triangle](https://leetcode.com/problems/triangle/) | [Triangle.java](./src/leetcode/dynamic_programming/Triangle.java)
+38 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | [UncrossedLines.java](./src/leetcode/dynamic_programming/UncrossedLines.java)
+39 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [UniquePaths.java](./src/leetcode/dynamic_programming/UniquePaths.java)
+40 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [UniquePaths2.java](./src/leetcode/dynamic_programming/UniquePaths2.java)
+41 | [Word Break](https://leetcode.com/problems/word-break/) | [WordBreak.java](./src/leetcode/dynamic_programming/WordBreak.java)
 
 ## Linkedlist
 Index | Problem Description | My Solution |
@@ -289,12 +290,13 @@ Index | Problem Description | My Solution |
 39 | [Single Number](https://leetcode.com/problems/single-number/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
 40 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [SortColors.java](./src/leetcode/others/SortColors.java)
 41 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | [SortAnArray.java](./src/leetcode/others/SortAnArray.java)
-42 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [TimeNeededToInformAllEmployees.java](./src/leetcode/others/TimeNeededToInformAllEmployees.java)
-43 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [TopKFrequentElements.java](./src/leetcode/others/TopKFrequentElements.java)
-44 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [TopKFrequentWords.java](./src/leetcode/others/TopKFrequentWords.java)
-45 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [TwoCityScheduling.java](./src/leetcode/others/TwoCityScheduling.java)
-46 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [UglyNumber.java](./src/leetcode/others/UglyNumber.java)
-47 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [UglyNumber2.java](./src/leetcode/others/UglyNumber2.java)
+42 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [SurroundedRegions.java](./src/leetcode/others/SurroundedRegions.java)
+43 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [TimeNeededToInformAllEmployees.java](./src/leetcode/others/TimeNeededToInformAllEmployees.java)
+44 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [TopKFrequentElements.java](./src/leetcode/others/TopKFrequentElements.java)
+45 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [TopKFrequentWords.java](./src/leetcode/others/TopKFrequentWords.java)
+46 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [TwoCityScheduling.java](./src/leetcode/others/TwoCityScheduling.java)
+47 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [UglyNumber.java](./src/leetcode/others/UglyNumber.java)
+48 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [UglyNumber2.java](./src/leetcode/others/UglyNumber2.java)
 
 ## Stack
 Index | Problem Description | My Solution |
