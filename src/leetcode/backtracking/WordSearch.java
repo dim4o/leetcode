@@ -2,7 +2,7 @@
 // The word can be constructed from letters of sequentially adjacent cell, 
 // where "adjacent" cells are those horizontally or vertically neighboring. 
 // The same letter cell may not be used more than once.
-// See: https://leetcode.com/problems/word-search/submissions/
+// See: https://leetcode.com/problems/word-search/
 
 package leetcode.backtracking;
 
@@ -12,18 +12,20 @@ public class WordSearch {
 
     public boolean exist(char[][] board, String word) {
         boolean[][] used = new boolean[board.length][board[0].length];
-        for (int i = 0; i < board.length; i++) 
-            for (int j = 0; j < board[0].length; j++) 
-                if (board[i][j] == word.charAt(0)) {
+        for (int i = 0; i < board.length; i++)
+            for (int j = 0; j < board[0].length; j++) {
+                if (board[i][j] == word.charAt(0))
                     dfs(board, i, j, 0, word, used);
-                }
-                if (pathExist) return true;
+            }
+        if (pathExist)
+            return true;
 
         return pathExist;
     }
 
     private void dfs(char[][] board, int i, int j, int depth, String word, boolean[][] used) {
-        if (!pathExist && !used[i][j] && depth <= word.length() && board[i][j] == word.charAt(depth)) {
+        if (!pathExist && !used[i][j] && depth <= word.length()
+                && board[i][j] == word.charAt(depth)) {
             if (depth == word.length() - 1 && board[i][j] == word.charAt(depth)) {
                 pathExist = true;
             } else {
@@ -41,7 +43,8 @@ public class WordSearch {
     }
 
     public static void main(String[] args) {
-        char[][] board = new char[][] { { 'A', 'B', 'C', 'E' }, { 'S', 'F', 'C', 'S' }, { 'A', 'D', 'E', 'E' } };
+        char[][] board = new char[][] { { 'A', 'B', 'C', 'E' }, { 'S', 'F', 'C', 'S' },
+                { 'A', 'D', 'E', 'E' } };
         System.out.println(new WordSearch().exist(board, "ABCCED") == true);
         System.out.println(new WordSearch().exist(board, "ASA") == true);
         System.out.println(new WordSearch().exist(board, "ASAC") == false);
