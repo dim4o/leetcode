@@ -17,8 +17,6 @@ public class WordSearch {
                 if (board[i][j] == word.charAt(0))
                     dfs(board, i, j, 0, word, used);
             }
-        if (pathExist)
-            return true;
 
         return pathExist;
     }
