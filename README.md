@@ -2,18 +2,18 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-368 solved problems from 12 categories:
+376 solved problems from 12 categories:
 * [Array And Hashtable](#array-and-hashtable) - 52 problems
-* [Backtracking](#backtracking) - 31 problems
-* [Binary Search](#binary-search) - 18 problems
-* [Concurrency](#concurrency) - 2 problems
+* [Backtracking](#backtracking) - 33 problems
+* [Binary Search](#binary-search) - 19 problems
+* [Concurrency](#concurrency) - 3 problems
 * [Design](#design) - 16 problems
-* [Dynamic Programming](#dynamic-programming) - 41 problems
+* [Dynamic Programming](#dynamic-programming) - 42 problems
 * [Linkedlist](#linkedlist) - 25 problems
-* [Math](#math) - 21 problems
-* [Others](#others) - 48 problems
+* [Math](#math) - 22 problems
+* [Others](#others) - 49 problems
 * [Stack](#stack) - 14 problems
-* [String](#string) - 15 problems
+* [String](#string) - 16 problems
 * [Tree](#tree) - 85 problems
 ## Array And Hashtable
 Index | Problem Description | My Solution |
@@ -75,36 +75,38 @@ Index | Problem Description | My Solution |
 Index | Problem Description | My Solution |
 --- | --- | ---
 1 | [Additive Number](https://leetcode.com/problems/additive-number/) | [AdditiveNumber.java](./src/leetcode/backtracking/AdditiveNumber.java)
-2 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | [BeautifulArrangement.java](./src/leetcode/backtracking/BeautifulArrangement.java)
-3 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [CombinationSum.java](./src/leetcode/backtracking/CombinationSum.java)
-4 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [CombinationSum2.java](./src/leetcode/backtracking/CombinationSum2.java)
-5 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [CombinationSum3.java](./src/leetcode/backtracking/CombinationSum3.java)
-6 | [Combinations](https://leetcode.com/problems/combinations/) | [Combinations.java](./src/leetcode/backtracking/Combinations.java)
-7 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [GenerateParentheses.java](./src/leetcode/backtracking/GenerateParentheses.java)
-8 | [Gray Code](https://leetcode.com/problems/gray-code/) | [GrayCode.java](./src/leetcode/backtracking/GrayCode.java)
-9 | [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [IncreasingSubsequences.java](./src/leetcode/backtracking/IncreasingSubsequences.java)
-10 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | [IteratorForCombination.java](./src/leetcode/backtracking/IteratorForCombination.java)
-11 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [LetterCasePermutation.java](./src/leetcode/backtracking/LetterCasePermutation.java)
-12 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [LetterCombinationsOfPhoneNumber.java](./src/leetcode/backtracking/LetterCombinationsOfPhoneNumber.java)
-13 | [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/) | [LetterTilePossibilities.java](./src/leetcode/backtracking/LetterTilePossibilities.java)
-14 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | [MaximumLengthOfConcatenatedStringWithUniqueCharacters.java](./src/leetcode/backtracking/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)
-15 | [N-Queens](https://leetcode.com/problems/n-queens/) | [NQueens.java](./src/leetcode/backtracking/NQueens.java)
-16 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [NQueens2.java](./src/leetcode/backtracking/NQueens2.java)
-17 | [Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/) | [NumberOfSquarefulArrays.java](./src/leetcode/backtracking/NumberOfSquarefulArrays.java)
-18 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [PalindromePartitioning.java](./src/leetcode/backtracking/PalindromePartitioning.java)
-19 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | [PathWithMaximumGold.java](./src/leetcode/backtracking/PathWithMaximumGold.java)
-20 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | [PermutationSequence.java](./src/leetcode/backtracking/PermutationSequence.java)
-21 | [Permutations](https://leetcode.com/problems/permutations/) | [Permutations.java](./src/leetcode/backtracking/Permutations.java)
-22 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [Permutations2.java](./src/leetcode/backtracking/Permutations2.java)
-23 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | [RestoreIPAddresses.java](./src/leetcode/backtracking/RestoreIPAddresses.java)
-24 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | [SequentialDigits.java](./src/leetcode/backtracking/SequentialDigits.java)
-25 | [Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) | [SplitArrayIntoFibonacciSequence.java](./src/leetcode/backtracking/SplitArrayIntoFibonacciSequence.java)
-26 | [Subsets](https://leetcode.com/problems/subsets/) | [Subsets.java](./src/leetcode/backtracking/Subsets.java)
-27 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [Subsets2.java](./src/leetcode/backtracking/Subsets2.java)
-28 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [SudokuSolver.java](./src/leetcode/backtracking/SudokuSolver.java)
-29 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | [TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java](./src/leetcode/backtracking/TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java)
-30 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | [UniquePaths3.java](./src/leetcode/backtracking/UniquePaths3.java)
-31 | [Word Search](https://leetcode.com/problems/word-search/) | [WordSearch.java](./src/leetcode/backtracking/WordSearch.java)
+2 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [AllPathsFromSourceToTarget.java](./src/leetcode/backtracking/AllPathsFromSourceToTarget.java)
+3 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | [BeautifulArrangement.java](./src/leetcode/backtracking/BeautifulArrangement.java)
+4 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [CombinationSum.java](./src/leetcode/backtracking/CombinationSum.java)
+5 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [CombinationSum2.java](./src/leetcode/backtracking/CombinationSum2.java)
+6 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [CombinationSum3.java](./src/leetcode/backtracking/CombinationSum3.java)
+7 | [Combinations](https://leetcode.com/problems/combinations/) | [Combinations.java](./src/leetcode/backtracking/Combinations.java)
+8 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [GenerateParentheses.java](./src/leetcode/backtracking/GenerateParentheses.java)
+9 | [Gray Code](https://leetcode.com/problems/gray-code/) | [GrayCode.java](./src/leetcode/backtracking/GrayCode.java)
+10 | [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [IncreasingSubsequences.java](./src/leetcode/backtracking/IncreasingSubsequences.java)
+11 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | [IteratorForCombination.java](./src/leetcode/backtracking/IteratorForCombination.java)
+12 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [LetterCasePermutation.java](./src/leetcode/backtracking/LetterCasePermutation.java)
+13 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [LetterCombinationsOfPhoneNumber.java](./src/leetcode/backtracking/LetterCombinationsOfPhoneNumber.java)
+14 | [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/) | [LetterTilePossibilities.java](./src/leetcode/backtracking/LetterTilePossibilities.java)
+15 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | [MaximumLengthOfConcatenatedStringWithUniqueCharacters.java](./src/leetcode/backtracking/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)
+16 | [N-Queens](https://leetcode.com/problems/n-queens/) | [NQueens.java](./src/leetcode/backtracking/NQueens.java)
+17 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [NQueens2.java](./src/leetcode/backtracking/NQueens2.java)
+18 | [Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/) | [NumberOfSquarefulArrays.java](./src/leetcode/backtracking/NumberOfSquarefulArrays.java)
+19 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [PalindromePartitioning.java](./src/leetcode/backtracking/PalindromePartitioning.java)
+20 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | [PathWithMaximumGold.java](./src/leetcode/backtracking/PathWithMaximumGold.java)
+21 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | [PermutationSequence.java](./src/leetcode/backtracking/PermutationSequence.java)
+22 | [Permutations](https://leetcode.com/problems/permutations/) | [Permutations.java](./src/leetcode/backtracking/Permutations.java)
+23 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [Permutations2.java](./src/leetcode/backtracking/Permutations2.java)
+24 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | [RestoreIPAddresses.java](./src/leetcode/backtracking/RestoreIPAddresses.java)
+25 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | [SequentialDigits.java](./src/leetcode/backtracking/SequentialDigits.java)
+26 | [Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) | [SplitArrayIntoFibonacciSequence.java](./src/leetcode/backtracking/SplitArrayIntoFibonacciSequence.java)
+27 | [Subsets](https://leetcode.com/problems/subsets/) | [Subsets.java](./src/leetcode/backtracking/Subsets.java)
+28 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [Subsets2.java](./src/leetcode/backtracking/Subsets2.java)
+29 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [SudokuSolver.java](./src/leetcode/backtracking/SudokuSolver.java)
+30 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | [TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java](./src/leetcode/backtracking/TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java)
+31 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | [UniquePaths3.java](./src/leetcode/backtracking/UniquePaths3.java)
+32 | [Word Search](https://leetcode.com/problems/word-search/) | [WordSearch.java](./src/leetcode/backtracking/WordSearch.java)
+33 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | [WordSearch2.java](./src/leetcode/backtracking/WordSearch2.java)
 
 ## Binary Search
 Index | Problem Description | My Solution |
@@ -113,26 +115,28 @@ Index | Problem Description | My Solution |
 2 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [CountNegativeNumbersInSortedMatrix.java](./src/leetcode/binary_search/CountNegativeNumbersInSortedMatrix.java)
 3 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [FindFirstAndLastPositionOfElementInSortedArray.java](./src/leetcode/binary_search/FindFirstAndLastPositionOfElementInSortedArray.java)
 4 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [FindMinimumInRotatedSortedArray.java](./src/leetcode/binary_search/FindMinimumInRotatedSortedArray.java)
-5 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [FindPeakElement.java](./src/leetcode/binary_search/FindPeakElement.java)
-6 | [Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/) | [FindPositiveIntegerSolutionforGivenEquation.java](./src/leetcode/binary_search/FindPositiveIntegerSolutionforGivenEquation.java)
-7 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [FirstBadVersion.java](./src/leetcode/binary_search/FirstBadVersion.java)
-8 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [GuessNumberHigherOrLower.java](./src/leetcode/binary_search/GuessNumberHigherOrLower.java)
-9 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [KthSmallestElementInSortedMatrix.java](./src/leetcode/binary_search/KthSmallestElementInSortedMatrix.java)
-10 | [Leftmost Column with at Least a One](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3306/) | [LeftmostColumnWithAtLeastOne.java](./src/leetcode/binary_search/LeftmostColumnWithAtLeastOne.java)
-11 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [RandomPickWithWeight.java](./src/leetcode/binary_search/RandomPickWithWeight.java)
-12 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [SearchInsertPosition.java](./src/leetcode/binary_search/SearchInsertPosition.java)
-13 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Search2DMatrix.java](./src/leetcode/binary_search/Search2DMatrix.java)
-14 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Search2DMatrix2.java](./src/leetcode/binary_search/Search2DMatrix2.java)
-15 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [SearchInRotatedSortedArray.java](./src/leetcode/binary_search/SearchInRotatedSortedArray.java)
-16 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [SearchInRotatedSortedArray2.java](./src/leetcode/binary_search/SearchInRotatedSortedArray2.java)
-17 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [SingleElementInSortedArray.java](./src/leetcode/binary_search/SingleElementInSortedArray.java)
-18 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [TimeBasedKeyValueStore.java](./src/leetcode/binary_search/TimeBasedKeyValueStore.java)
+5 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [FindMinimumInRotatedSortedArray2.java](./src/leetcode/binary_search/FindMinimumInRotatedSortedArray2.java)
+6 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [FindPeakElement.java](./src/leetcode/binary_search/FindPeakElement.java)
+7 | [Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/) | [FindPositiveIntegerSolutionforGivenEquation.java](./src/leetcode/binary_search/FindPositiveIntegerSolutionforGivenEquation.java)
+8 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [FirstBadVersion.java](./src/leetcode/binary_search/FirstBadVersion.java)
+9 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [GuessNumberHigherOrLower.java](./src/leetcode/binary_search/GuessNumberHigherOrLower.java)
+10 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [KthSmallestElementInSortedMatrix.java](./src/leetcode/binary_search/KthSmallestElementInSortedMatrix.java)
+11 | [Leftmost Column with at Least a One](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3306/) | [LeftmostColumnWithAtLeastOne.java](./src/leetcode/binary_search/LeftmostColumnWithAtLeastOne.java)
+12 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [RandomPickWithWeight.java](./src/leetcode/binary_search/RandomPickWithWeight.java)
+13 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [SearchInsertPosition.java](./src/leetcode/binary_search/SearchInsertPosition.java)
+14 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Search2DMatrix.java](./src/leetcode/binary_search/Search2DMatrix.java)
+15 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Search2DMatrix2.java](./src/leetcode/binary_search/Search2DMatrix2.java)
+16 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [SearchInRotatedSortedArray.java](./src/leetcode/binary_search/SearchInRotatedSortedArray.java)
+17 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [SearchInRotatedSortedArray2.java](./src/leetcode/binary_search/SearchInRotatedSortedArray2.java)
+18 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [SingleElementInSortedArray.java](./src/leetcode/binary_search/SingleElementInSortedArray.java)
+19 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [TimeBasedKeyValueStore.java](./src/leetcode/binary_search/TimeBasedKeyValueStore.java)
 
 ## Concurrency
 Index | Problem Description | My Solution |
 --- | --- | ---
-1 | [Print Zero Even Odd](https://leetcode.com/problems/print-zero-even-odd/) | [PrintZeroEvenOdd.java](./src/leetcode/concurrency/PrintZeroEvenOdd.java)
-2 | [Print in Order](https://leetcode.com/problems/print-in-order/) | [PrintInOrder.java](./src/leetcode/concurrency/PrintInOrder.java)
+1 | [Print Foobar Alternately](https://leetcode.com/problems/print-foobar-alternately/) | [PrintFooBarAlternately.java](./src/leetcode/concurrency/PrintFooBarAlternately.java)
+2 | [Print Zero Even Odd](https://leetcode.com/problems/print-zero-even-odd/) | [PrintZeroEvenOdd.java](./src/leetcode/concurrency/PrintZeroEvenOdd.java)
+3 | [Print in Order](https://leetcode.com/problems/print-in-order/) | [PrintInOrder.java](./src/leetcode/concurrency/PrintInOrder.java)
 
 ## Design
 Index | Problem Description | My Solution |
@@ -198,6 +202,7 @@ Index | Problem Description | My Solution |
 39 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [UniquePaths.java](./src/leetcode/dynamic_programming/UniquePaths.java)
 40 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [UniquePaths2.java](./src/leetcode/dynamic_programming/UniquePaths2.java)
 41 | [Word Break](https://leetcode.com/problems/word-break/) | [WordBreak.java](./src/leetcode/dynamic_programming/WordBreak.java)
+42 | [WordBreak II](https://leetcode.com/problems/word-break-ii/) | [WordBreak2.java](./src/leetcode/dynamic_programming/WordBreak2.java)
 
 ## Linkedlist
 Index | Problem Description | My Solution |
@@ -232,26 +237,27 @@ Index | Problem Description | My Solution |
 Index | Problem Description | My Solution |
 --- | --- | ---
 1 | [Add Digits](https://leetcode.com/problems/add-digits/) | [AddDigits.java](./src/leetcode/math/AddDigits.java)
-2 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [ArrangingCoins.java](./src/leetcode/math/ArrangingCoins.java)
-3 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [CheckIfItIsStraightLine.java](./src/leetcode/math/CheckIfItIsStraightLine.java)
-4 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [CountNumbersWithUniqueDigits.java](./src/leetcode/math/CountNumbersWithUniqueDigits.java)
-5 | [Count Primes](https://leetcode.com/problems/count-primes/) | [CountPrimes.java](./src/leetcode/math/CountPrimes.java)
-6 | [Happy Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/) | [HappyNumber.java](./src/leetcode/math/HappyNumber.java)
-7 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [IntegerToRoman.java](./src/leetcode/math/IntegerToRoman.java)
-8 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [LargestPerimeterTriangle.java](./src/leetcode/math/LargestPerimeterTriangle.java)
-9 | [Missing Number](https://leetcode.com/problems/missing-number/) | [MissingNumber.java](./src/leetcode/math/MissingNumber.java)
-10 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [PalindromeNumber.java](./src/leetcode/math/PalindromeNumber.java)
-11 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [PowerOfFour.java](./src/leetcode/math/PowerOfFour.java)
-12 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [PowerOfThree.java](./src/leetcode/math/PowerOfThree.java)
-13 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [PowerOfTwo.java](./src/leetcode/math/PowerOfTwo.java)
-14 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [RectangleArea.java](./src/leetcode/math/RectangleArea.java)
-15 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | [RectangleOverlap.java](./src/leetcode/math/RectangleOverlap.java)
-16 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [ReverseInteger.java](./src/leetcode/math/ReverseInteger.java)
-17 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [RomanToInteger.java](./src/leetcode/math/RomanToInteger.java)
-18 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Sqrt.java](./src/leetcode/math/Sqrt.java)
-19 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [StringToIntegerAtoi.java](./src/leetcode/math/StringToIntegerAtoi.java)
-20 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | [SumOfSquareNumbers.java](./src/leetcode/math/SumOfSquareNumbers.java)
-21 | [ValidPerfectSquare](https://leetcode.com/problems/valid-perfect-square/) | [ValidPerfectSquare.java](./src/leetcode/math/ValidPerfectSquare.java)
+2 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | [AngleBetweenHandsOfClock.java](./src/leetcode/math/AngleBetweenHandsOfClock.java)
+3 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [ArrangingCoins.java](./src/leetcode/math/ArrangingCoins.java)
+4 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [CheckIfItIsStraightLine.java](./src/leetcode/math/CheckIfItIsStraightLine.java)
+5 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [CountNumbersWithUniqueDigits.java](./src/leetcode/math/CountNumbersWithUniqueDigits.java)
+6 | [Count Primes](https://leetcode.com/problems/count-primes/) | [CountPrimes.java](./src/leetcode/math/CountPrimes.java)
+7 | [Happy Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/) | [HappyNumber.java](./src/leetcode/math/HappyNumber.java)
+8 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [IntegerToRoman.java](./src/leetcode/math/IntegerToRoman.java)
+9 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [LargestPerimeterTriangle.java](./src/leetcode/math/LargestPerimeterTriangle.java)
+10 | [Missing Number](https://leetcode.com/problems/missing-number/) | [MissingNumber.java](./src/leetcode/math/MissingNumber.java)
+11 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [PalindromeNumber.java](./src/leetcode/math/PalindromeNumber.java)
+12 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [PowerOfFour.java](./src/leetcode/math/PowerOfFour.java)
+13 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [PowerOfThree.java](./src/leetcode/math/PowerOfThree.java)
+14 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [PowerOfTwo.java](./src/leetcode/math/PowerOfTwo.java)
+15 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [RectangleArea.java](./src/leetcode/math/RectangleArea.java)
+16 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | [RectangleOverlap.java](./src/leetcode/math/RectangleOverlap.java)
+17 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [ReverseInteger.java](./src/leetcode/math/ReverseInteger.java)
+18 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [RomanToInteger.java](./src/leetcode/math/RomanToInteger.java)
+19 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Sqrt.java](./src/leetcode/math/Sqrt.java)
+20 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [StringToIntegerAtoi.java](./src/leetcode/math/StringToIntegerAtoi.java)
+21 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | [SumOfSquareNumbers.java](./src/leetcode/math/SumOfSquareNumbers.java)
+22 | [ValidPerfectSquare](https://leetcode.com/problems/valid-perfect-square/) | [ValidPerfectSquare.java](./src/leetcode/math/ValidPerfectSquare.java)
 
 ## Others
 Index | Problem Description | My Solution |
@@ -290,20 +296,21 @@ Index | Problem Description | My Solution |
 32 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [PermutationInString.java](./src/leetcode/others/PermutationInString.java)
 33 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | [PossibleBipartition.java](./src/leetcode/others/PossibleBipartition.java)
 34 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [QueueReconstructionByHeight.java](./src/leetcode/others/QueueReconstructionByHeight.java)
-35 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [RedundantConnection.java](./src/leetcode/others/RedundantConnection.java)
-36 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [ReverseBits.java](./src/leetcode/others/ReverseBits.java)
-37 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [ShortestPathInBinaryMatrix.java](./src/leetcode/others/ShortestPathInBinaryMatrix.java)
-38 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
+35 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [ReconstructItinerary.java](./src/leetcode/others/ReconstructItinerary.java)
+36 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [RedundantConnection.java](./src/leetcode/others/RedundantConnection.java)
+37 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [ReverseBits.java](./src/leetcode/others/ReverseBits.java)
+38 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [ShortestPathInBinaryMatrix.java](./src/leetcode/others/ShortestPathInBinaryMatrix.java)
 39 | [Single Number](https://leetcode.com/problems/single-number/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
-40 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [SortColors.java](./src/leetcode/others/SortColors.java)
-41 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | [SortAnArray.java](./src/leetcode/others/SortAnArray.java)
-42 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [SurroundedRegions.java](./src/leetcode/others/SurroundedRegions.java)
-43 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [TimeNeededToInformAllEmployees.java](./src/leetcode/others/TimeNeededToInformAllEmployees.java)
-44 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [TopKFrequentElements.java](./src/leetcode/others/TopKFrequentElements.java)
-45 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [TopKFrequentWords.java](./src/leetcode/others/TopKFrequentWords.java)
-46 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [TwoCityScheduling.java](./src/leetcode/others/TwoCityScheduling.java)
-47 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [UglyNumber.java](./src/leetcode/others/UglyNumber.java)
-48 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [UglyNumber2.java](./src/leetcode/others/UglyNumber2.java)
+40 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
+41 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [SortColors.java](./src/leetcode/others/SortColors.java)
+42 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | [SortAnArray.java](./src/leetcode/others/SortAnArray.java)
+43 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [SurroundedRegions.java](./src/leetcode/others/SurroundedRegions.java)
+44 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [TimeNeededToInformAllEmployees.java](./src/leetcode/others/TimeNeededToInformAllEmployees.java)
+45 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [TopKFrequentElements.java](./src/leetcode/others/TopKFrequentElements.java)
+46 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [TopKFrequentWords.java](./src/leetcode/others/TopKFrequentWords.java)
+47 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [TwoCityScheduling.java](./src/leetcode/others/TwoCityScheduling.java)
+48 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [UglyNumber.java](./src/leetcode/others/UglyNumber.java)
+49 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [UglyNumber2.java](./src/leetcode/others/UglyNumber2.java)
 
 ## Stack
 Index | Problem Description | My Solution |
@@ -329,18 +336,19 @@ Index | Problem Description | My Solution |
 1 | [Add Binary](https://leetcode.com/problems/add-binary/) | [AddBinary.java](./src/leetcode/string/AddBinary.java)
 2 | [Add Strings](https://leetcode.com/problems/add-strings/) | [AddStrings.java](./src/leetcode/string/AddStrings.java)
 3 | [Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/) | [AlphabetBoardPath.java](./src/leetcode/string/AlphabetBoardPath.java)
-4 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [ImplementStrStr.java](./src/leetcode/string/ImplementStrStr.java)
-5 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [LongestCommonPrefix.java](./src/leetcode/string/LongestCommonPrefix.java)
-6 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | [MaximumScoreAfterSplittingString.java](./src/leetcode/string/MaximumScoreAfterSplittingString.java)
-7 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [MultiplyStrings.java](./src/leetcode/string/MultiplyStrings.java)
-8 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) | [RepeatedSubstringPattern.java](./src/leetcode/string/RepeatedSubstringPattern.java)
-9 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [ReverseString.java](./src/leetcode/string/ReverseString.java)
-10 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [ReverseWordsInString.java](./src/leetcode/string/ReverseWordsInString.java)
-11 | [String Compression](https://leetcode.com/problems/string-compression/) | [StringCompression.java](./src/leetcode/string/StringCompression.java)
-12 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [ValidPalindrome.java](./src/leetcode/string/ValidPalindrome.java)
-13 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [ValidParenthesisString.java](./src/leetcode/string/ValidParenthesisString.java)
-14 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [VerifyingAnAlienDictionary.java](./src/leetcode/string/VerifyingAnAlienDictionary.java)
-15 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [ZigZagConversion.java](./src/leetcode/string/ZigZagConversion.java)
+4 | [Detect Capital](https://leetcode.com/problems/detect-capital/submissions/) | [DetectCapital.java](./src/leetcode/string/DetectCapital.java)
+5 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [ImplementStrStr.java](./src/leetcode/string/ImplementStrStr.java)
+6 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [LongestCommonPrefix.java](./src/leetcode/string/LongestCommonPrefix.java)
+7 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | [MaximumScoreAfterSplittingString.java](./src/leetcode/string/MaximumScoreAfterSplittingString.java)
+8 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [MultiplyStrings.java](./src/leetcode/string/MultiplyStrings.java)
+9 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) | [RepeatedSubstringPattern.java](./src/leetcode/string/RepeatedSubstringPattern.java)
+10 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [ReverseString.java](./src/leetcode/string/ReverseString.java)
+11 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [ReverseWordsInString.java](./src/leetcode/string/ReverseWordsInString.java)
+12 | [String Compression](https://leetcode.com/problems/string-compression/) | [StringCompression.java](./src/leetcode/string/StringCompression.java)
+13 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [ValidPalindrome.java](./src/leetcode/string/ValidPalindrome.java)
+14 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [ValidParenthesisString.java](./src/leetcode/string/ValidParenthesisString.java)
+15 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [VerifyingAnAlienDictionary.java](./src/leetcode/string/VerifyingAnAlienDictionary.java)
+16 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [ZigZagConversion.java](./src/leetcode/string/ZigZagConversion.java)
 
 ## Tree
 Index | Problem Description | My Solution |
@@ -391,8 +399,8 @@ Index | Problem Description | My Solution |
 44 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [LeafSimilarTrees.java](./src/leetcode/tree/LeafSimilarTrees.java)
 45 | [Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [LowestCommonAncestorOfDeepestLeaves.java](./src/leetcode/tree/LowestCommonAncestorOfDeepestLeaves.java)
 46 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [LowestCommonAncestorOfBinarySearchTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinarySearchTree.java)
-47 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
-48 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
+47 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
+48 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
 49 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [MaximumBinaryTree.java](./src/leetcode/tree/MaximumBinaryTree.java)
 50 | [Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/submissions/) | [MaximumBinaryTree2.java](./src/leetcode/tree/MaximumBinaryTree2.java)
 51 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [MaximumDepthOfBinaryTree.java](./src/leetcode/tree/MaximumDepthOfBinaryTree.java)
