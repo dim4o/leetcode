@@ -2,12 +2,12 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-376 solved problems from 12 categories:
+377 solved problems from 12 categories:
 * [Array And Hashtable](#array-and-hashtable) - 52 problems
 * [Backtracking](#backtracking) - 33 problems
 * [Binary Search](#binary-search) - 19 problems
 * [Concurrency](#concurrency) - 3 problems
-* [Design](#design) - 16 problems
+* [Design](#design) - 17 problems
 * [Dynamic Programming](#dynamic-programming) - 42 problems
 * [Linkedlist](#linkedlist) - 25 problems
 * [Math](#math) - 22 problems
@@ -141,22 +141,23 @@ Index | Problem Description | My Solution |
 ## Design
 Index | Problem Description | My Solution |
 --- | --- | ---
-1 | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) | [ConstructQuadTree.java](./src/leetcode/design/ConstructQuadTree.java)
-2 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | [DesignCircularDeque.java](./src/leetcode/design/DesignCircularDeque.java)
-3 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [DesignCircularQueue.java](./src/leetcode/design/DesignCircularQueue.java)
-4 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | [DesignHashMap.java](./src/leetcode/design/DesignHashMap.java)
-5 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [DesignHashSet.java](./src/leetcode/design/DesignHashSet.java)
-6 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | [DesignLinkedList.java](./src/leetcode/design/DesignLinkedList.java)
-7 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [DesignStackWithIncrementOperation.java](./src/leetcode/design/DesignStackWithIncrementOperation.java)
-8 | [First Unique Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/531/week-4/3313/) | [FirstUniqueNumber.java](./src/leetcode/design/FirstUniqueNumber.java)
-9 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [FlattenNestedListIterator.java](./src/leetcode/design/FlattenNestedListIterator.java)
-10 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [ImplementQueueUsingStacks.java](./src/leetcode/design/ImplementQueueUsingStacks.java)
-11 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [ImplementStackUsingQueues.java](./src/leetcode/design/ImplementStackUsingQueues.java)
-12 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [ImplementTriePrefixTree.java](./src/leetcode/design/ImplementTriePrefixTree.java)
-13 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [InsertDeleteGetRandomO1.java](./src/leetcode/design/InsertDeleteGetRandomO1.java)
-14 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [LRUCache.java](./src/leetcode/design/LRUCache.java)
-15 | [Product of the Last K Numbers](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/) | [ProductOfTheLastKNumbers.java](./src/leetcode/design/ProductOfTheLastKNumbers.java)
-16 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [RangeSumQueryMutable.java](./src/leetcode/design/RangeSumQueryMutable.java)
+1 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [AddAndSearchWordDataStructureDesign.java](./src/leetcode/design/AddAndSearchWordDataStructureDesign.java)
+2 | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) | [ConstructQuadTree.java](./src/leetcode/design/ConstructQuadTree.java)
+3 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | [DesignCircularDeque.java](./src/leetcode/design/DesignCircularDeque.java)
+4 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [DesignCircularQueue.java](./src/leetcode/design/DesignCircularQueue.java)
+5 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | [DesignHashMap.java](./src/leetcode/design/DesignHashMap.java)
+6 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [DesignHashSet.java](./src/leetcode/design/DesignHashSet.java)
+7 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | [DesignLinkedList.java](./src/leetcode/design/DesignLinkedList.java)
+8 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [DesignStackWithIncrementOperation.java](./src/leetcode/design/DesignStackWithIncrementOperation.java)
+9 | [First Unique Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/531/week-4/3313/) | [FirstUniqueNumber.java](./src/leetcode/design/FirstUniqueNumber.java)
+10 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [FlattenNestedListIterator.java](./src/leetcode/design/FlattenNestedListIterator.java)
+11 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [ImplementQueueUsingStacks.java](./src/leetcode/design/ImplementQueueUsingStacks.java)
+12 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [ImplementStackUsingQueues.java](./src/leetcode/design/ImplementStackUsingQueues.java)
+13 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [ImplementTriePrefixTree.java](./src/leetcode/design/ImplementTriePrefixTree.java)
+14 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [InsertDeleteGetRandomO1.java](./src/leetcode/design/InsertDeleteGetRandomO1.java)
+15 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [LRUCache.java](./src/leetcode/design/LRUCache.java)
+16 | [Product of the Last K Numbers](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/) | [ProductOfTheLastKNumbers.java](./src/leetcode/design/ProductOfTheLastKNumbers.java)
+17 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [RangeSumQueryMutable.java](./src/leetcode/design/RangeSumQueryMutable.java)
 
 ## Dynamic Programming
 Index | Problem Description | My Solution |
@@ -399,8 +400,8 @@ Index | Problem Description | My Solution |
 44 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [LeafSimilarTrees.java](./src/leetcode/tree/LeafSimilarTrees.java)
 45 | [Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [LowestCommonAncestorOfDeepestLeaves.java](./src/leetcode/tree/LowestCommonAncestorOfDeepestLeaves.java)
 46 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [LowestCommonAncestorOfBinarySearchTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinarySearchTree.java)
-47 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
-48 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
+47 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
+48 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
 49 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [MaximumBinaryTree.java](./src/leetcode/tree/MaximumBinaryTree.java)
 50 | [Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/submissions/) | [MaximumBinaryTree2.java](./src/leetcode/tree/MaximumBinaryTree2.java)
 51 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [MaximumDepthOfBinaryTree.java](./src/leetcode/tree/MaximumDepthOfBinaryTree.java)
