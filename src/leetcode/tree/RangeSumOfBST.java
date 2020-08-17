@@ -7,7 +7,7 @@ package leetcode.tree;
 
 import leetcode.util.tree.TreeNode;
 
-public class RangeSumofBST {
+public class RangeSumOfBST {
     
     /**
      * Solution 2 - Fast and effective (reduced recursion calls)
