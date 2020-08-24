@@ -85,9 +85,12 @@ def find_best_match_class_name(generated_class_name, all_files):
 
 def remove_duplicates(items):
     """ Removes the duplicates due inconsistent commit messages """
+    print(items)
     items.remove(("Reverse LinkedList", "https://leetcode.com/problems/reverse-linked-list/"))
     items.remove(("Counting Elements",
                   "https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/"))
+    items.remove(("Add and Search Word - Data structure design",
+                 "https://leetcode.com/problems/add-and-search-word-data-structure-design/"))
     items.add(("Product of the Last K Numbers",
                "https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/"))
     return items
