@@ -3,7 +3,7 @@
 //   - boolean search(word)
 // search(word) can search a literal word or a regular expression string containing only letters a-z or .
 // A . means it can represent any one letter.
-// See: https://leetcode.com/problems/add-and-search-word-data-structure-design/
+// See: https://leetcode.com/problems/design-add-and-search-words-data-structure/
 // See: https://leetcode.com/explore/challenge/card/august-leetcoding-challenge/549/week-1-august-1st-august-7th/3413/
 
 package leetcode.design;
@@ -11,7 +11,7 @@ package leetcode.design;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AddAndSearchWordDataStructureDesign {
+public class DesignAndSearchWordDataStructure {
 
     class WordDictionary {
         final class Node {
@@ -84,7 +84,7 @@ public class AddAndSearchWordDataStructureDesign {
     }
 
     public static void main(String[] args) {
-        WordDictionary wd = new AddAndSearchWordDataStructureDesign().new WordDictionary();
+        WordDictionary wd = new DesignAndSearchWordDataStructure().new WordDictionary();
         wd.addWord("app");
         wd.addWord("apple");
         wd.addWord("alpines");
