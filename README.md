@@ -2,7 +2,7 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-384 solved problems from 12 categories:
+385 solved problems from 12 categories:
 * [Array And Hashtable](#array-and-hashtable) - 55 problems
 * [Backtracking](#backtracking) - 33 problems
 * [Binary Search](#binary-search) - 19 problems
@@ -11,7 +11,7 @@
 * [Dynamic Programming](#dynamic-programming) - 42 problems
 * [Linkedlist](#linkedlist) - 25 problems
 * [Math](#math) - 23 problems
-* [Others](#others) - 51 problems
+* [Others](#others) - 52 problems
 * [Stack](#stack) - 14 problems
 * [String](#string) - 17 problems
 * [Tree](#tree) - 85 problems
@@ -295,29 +295,30 @@ Index | Problem Description | My Solution |
 26 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [NumberOf1Bits.java](./src/leetcode/others/NumberOf1Bits.java)
 27 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](./src/leetcode/others/NumberOfIslands.java)
 28 | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [NumbersWithSameConsecutiveDifferences.java](./src/leetcode/others/NumbersWithSameConsecutiveDifferences.java)
-29 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [PartitionLabels.java](./src/leetcode/others/PartitionLabels.java)
-30 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [PascalTriangle.java](./src/leetcode/others/PascalTriangle.java)
-31 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [PascalTriangle2.java](./src/leetcode/others/PascalTriangle2.java)
-32 | [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [PerformStringShifts.java](./src/leetcode/others/PerformStringShifts.java)
-33 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [PermutationInString.java](./src/leetcode/others/PermutationInString.java)
-34 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | [PossibleBipartition.java](./src/leetcode/others/PossibleBipartition.java)
-35 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [QueueReconstructionByHeight.java](./src/leetcode/others/QueueReconstructionByHeight.java)
-36 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [ReconstructItinerary.java](./src/leetcode/others/ReconstructItinerary.java)
-37 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [RedundantConnection.java](./src/leetcode/others/RedundantConnection.java)
-38 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [ReverseBits.java](./src/leetcode/others/ReverseBits.java)
-39 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [RottingOranges.java](./src/leetcode/others/RottingOranges.java)
-40 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [ShortestPathInBinaryMatrix.java](./src/leetcode/others/ShortestPathInBinaryMatrix.java)
-41 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
-42 | [Single Number](https://leetcode.com/problems/single-number/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
-43 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [SortColors.java](./src/leetcode/others/SortColors.java)
-44 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | [SortAnArray.java](./src/leetcode/others/SortAnArray.java)
-45 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [SurroundedRegions.java](./src/leetcode/others/SurroundedRegions.java)
-46 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [TimeNeededToInformAllEmployees.java](./src/leetcode/others/TimeNeededToInformAllEmployees.java)
-47 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [TopKFrequentElements.java](./src/leetcode/others/TopKFrequentElements.java)
-48 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [TopKFrequentWords.java](./src/leetcode/others/TopKFrequentWords.java)
-49 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [TwoCityScheduling.java](./src/leetcode/others/TwoCityScheduling.java)
-50 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [UglyNumber.java](./src/leetcode/others/UglyNumber.java)
-51 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [UglyNumber2.java](./src/leetcode/others/UglyNumber2.java)
+29 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [PancakeSorting.java](./src/leetcode/others/PancakeSorting.java)
+30 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [PartitionLabels.java](./src/leetcode/others/PartitionLabels.java)
+31 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [PascalTriangle.java](./src/leetcode/others/PascalTriangle.java)
+32 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [PascalTriangle2.java](./src/leetcode/others/PascalTriangle2.java)
+33 | [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [PerformStringShifts.java](./src/leetcode/others/PerformStringShifts.java)
+34 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [PermutationInString.java](./src/leetcode/others/PermutationInString.java)
+35 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | [PossibleBipartition.java](./src/leetcode/others/PossibleBipartition.java)
+36 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [QueueReconstructionByHeight.java](./src/leetcode/others/QueueReconstructionByHeight.java)
+37 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [ReconstructItinerary.java](./src/leetcode/others/ReconstructItinerary.java)
+38 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [RedundantConnection.java](./src/leetcode/others/RedundantConnection.java)
+39 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [ReverseBits.java](./src/leetcode/others/ReverseBits.java)
+40 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [RottingOranges.java](./src/leetcode/others/RottingOranges.java)
+41 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [ShortestPathInBinaryMatrix.java](./src/leetcode/others/ShortestPathInBinaryMatrix.java)
+42 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
+43 | [Single Number](https://leetcode.com/problems/single-number/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
+44 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [SortColors.java](./src/leetcode/others/SortColors.java)
+45 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | [SortAnArray.java](./src/leetcode/others/SortAnArray.java)
+46 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [SurroundedRegions.java](./src/leetcode/others/SurroundedRegions.java)
+47 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [TimeNeededToInformAllEmployees.java](./src/leetcode/others/TimeNeededToInformAllEmployees.java)
+48 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [TopKFrequentElements.java](./src/leetcode/others/TopKFrequentElements.java)
+49 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [TopKFrequentWords.java](./src/leetcode/others/TopKFrequentWords.java)
+50 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [TwoCityScheduling.java](./src/leetcode/others/TwoCityScheduling.java)
+51 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [UglyNumber.java](./src/leetcode/others/UglyNumber.java)
+52 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [UglyNumber2.java](./src/leetcode/others/UglyNumber2.java)
 
 ## Stack
 Index | Problem Description | My Solution |
