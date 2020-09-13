@@ -41,7 +41,7 @@ def get_all_java_files():
     all_files = {}
     for root, dirs, files in os.walk("./"):
         for file in files:
-            if file.endswith(".java"):
+            if file.endswith(".java") or file.endswith(".sql"):
                 all_files[file] = os.path.join(root, file)
     return all_files
 
@@ -76,7 +76,8 @@ def find_best_match_class_name(generated_class_name, all_files):
     for candidate, local_path in all_files.items():
         curr_dist = get_edit_distance(generated_class_name, candidate)
         if curr_dist > best_dist:
-            category = re.match("./src/leetcode/(.*)/.*.java", local_path).group(1)
+            category = re.match("./src/leetcode/(.*)/.*.java", local_path) or re.match("./src/leetcode/(.*)/.*.sql", local_path)
+            category = category.group(1)
             best_match = (candidate, local_path, category)
             best_dist = curr_dist
 
