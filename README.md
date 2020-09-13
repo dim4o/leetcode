@@ -2,7 +2,7 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-388 solved problems from 12 categories:
+389 solved problems from 13 categories:
 * [Array And Hashtable](#array-and-hashtable) - 56 problems
 * [Backtracking](#backtracking) - 33 problems
 * [Binary Search](#binary-search) - 19 problems
@@ -12,6 +12,7 @@
 * [Linkedlist](#linkedlist) - 25 problems
 * [Math](#math) - 24 problems
 * [Others](#others) - 52 problems
+* [Sql](#sql) - 1 problems
 * [Stack](#stack) - 14 problems
 * [String](#string) - 18 problems
 * [Tree](#tree) - 85 problems
@@ -321,6 +322,11 @@ Index | Problem Description | My Solution |
 50 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [TwoCityScheduling.java](./src/leetcode/others/TwoCityScheduling.java)
 51 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [UglyNumber.java](./src/leetcode/others/UglyNumber.java)
 52 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [UglyNumber2.java](./src/leetcode/others/UglyNumber2.java)
+
+## Sql
+Index | Problem Description | My Solution |
+--- | --- | ---
+1 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [CustomersWhoNeverOrder.sql](./src/leetcode/sql/CustomersWhoNeverOrder.sql)
 
 ## Stack
 Index | Problem Description | My Solution |
