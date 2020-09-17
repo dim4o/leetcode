@@ -7,12 +7,12 @@
 * [Backtracking](#backtracking) - 33 problems
 * [Binary Search](#binary-search) - 19 problems
 * [Concurrency](#concurrency) - 3 problems
+* [Database](#database) - 5 problems
 * [Design](#design) - 17 problems
 * [Dynamic Programming](#dynamic-programming) - 42 problems
 * [Linkedlist](#linkedlist) - 25 problems
 * [Math](#math) - 24 problems
 * [Others](#others) - 52 problems
-* [Sql](#sql) - 5 problems
 * [Stack](#stack) - 14 problems
 * [String](#string) - 18 problems
 * [Tree](#tree) - 85 problems
@@ -142,6 +142,15 @@ Index | Problem Description | My Solution |
 1 | [Print Foobar Alternately](https://leetcode.com/problems/print-foobar-alternately/) | [PrintFooBarAlternately.java](./src/leetcode/concurrency/PrintFooBarAlternately.java)
 2 | [Print Zero Even Odd](https://leetcode.com/problems/print-zero-even-odd/) | [PrintZeroEvenOdd.java](./src/leetcode/concurrency/PrintZeroEvenOdd.java)
 3 | [Print in Order](https://leetcode.com/problems/print-in-order/) | [PrintInOrder.java](./src/leetcode/concurrency/PrintInOrder.java)
+
+## Database
+Index | Problem Description | My Solution |
+--- | --- | ---
+1 | [Big Countries](https://leetcode.com/problems/big-countries/) | [BigCountries.sql](./src/leetcode/database/BigCountries.sql)
+2 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | [ClassesMoreThan5Students.sql](./src/leetcode/database/ClassesMoreThan5Students.sql)
+3 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [CombineTwoTables.sql](./src/leetcode/database/CombineTwoTables.sql)
+4 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [CustomersWhoNeverOrder.sql](./src/leetcode/database/CustomersWhoNeverOrder.sql)
+5 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [DuplicateEmails.sql](./src/leetcode/database/DuplicateEmails.sql)
 
 ## Design
 Index | Problem Description | My Solution |
@@ -311,8 +320,8 @@ Index | Problem Description | My Solution |
 39 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [ReverseBits.java](./src/leetcode/others/ReverseBits.java)
 40 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [RottingOranges.java](./src/leetcode/others/RottingOranges.java)
 41 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [ShortestPathInBinaryMatrix.java](./src/leetcode/others/ShortestPathInBinaryMatrix.java)
-42 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
-43 | [Single Number](https://leetcode.com/problems/single-number/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
+42 | [Single Number](https://leetcode.com/problems/single-number/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
+43 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
 44 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [SortColors.java](./src/leetcode/others/SortColors.java)
 45 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | [SortAnArray.java](./src/leetcode/others/SortAnArray.java)
 46 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [SurroundedRegions.java](./src/leetcode/others/SurroundedRegions.java)
@@ -322,15 +331,6 @@ Index | Problem Description | My Solution |
 50 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [TwoCityScheduling.java](./src/leetcode/others/TwoCityScheduling.java)
 51 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [UglyNumber.java](./src/leetcode/others/UglyNumber.java)
 52 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [UglyNumber2.java](./src/leetcode/others/UglyNumber2.java)
-
-## Sql
-Index | Problem Description | My Solution |
---- | --- | ---
-1 | [Big Countries](https://leetcode.com/problems/big-countries/) | [BigCountries.sql](./src/leetcode/sql/BigCountries.sql)
-2 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | [ClassesMoreThan5Students.sql](./src/leetcode/sql/ClassesMoreThan5Students.sql)
-3 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [CombineTwoTables.sql](./src/leetcode/sql/CombineTwoTables.sql)
-4 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [CustomersWhoNeverOrder.sql](./src/leetcode/sql/CustomersWhoNeverOrder.sql)
-5 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [DuplicateEmails.sql](./src/leetcode/sql/DuplicateEmails.sql)
 
 ## Stack
 Index | Problem Description | My Solution |
@@ -421,8 +421,8 @@ Index | Problem Description | My Solution |
 44 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [LeafSimilarTrees.java](./src/leetcode/tree/LeafSimilarTrees.java)
 45 | [Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [LowestCommonAncestorOfDeepestLeaves.java](./src/leetcode/tree/LowestCommonAncestorOfDeepestLeaves.java)
 46 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [LowestCommonAncestorOfBinarySearchTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinarySearchTree.java)
-47 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
-48 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
+47 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
+48 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/) | [LowestCommonAncestorOfBinaryTree.java](./src/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
 49 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [MaximumBinaryTree.java](./src/leetcode/tree/MaximumBinaryTree.java)
 50 | [Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/submissions/) | [MaximumBinaryTree2.java](./src/leetcode/tree/MaximumBinaryTree2.java)
 51 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [MaximumDepthOfBinaryTree.java](./src/leetcode/tree/MaximumDepthOfBinaryTree.java)
