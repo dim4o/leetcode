@@ -4,7 +4,7 @@
 // See: https://leetcode.com/problems/majority-element/
 // See: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3321/
 
-package leetcode.others;
+package leetcode.array_and_hashtable;
 
 import java.util.Arrays;
 import java.util.HashMap;
