@@ -4,4 +4,9 @@
 .project
 .pydevproject
 
+# InteliJ IDEA
+/.idea
+/out
+leetcode.iml
+
 /src/leetcode/unfinished
