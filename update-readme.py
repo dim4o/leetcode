@@ -39,7 +39,7 @@ def parse_commits():
 
 def get_all_java_files():
     all_files = {}
-    for root, dirs, files in os.walk("./"):
+    for root, dirs, files in os.walk("./src"):
         for file in files:
             if file.endswith(".java") or file.endswith(".sql"):
                 all_files[file] = os.path.join(root, file)
