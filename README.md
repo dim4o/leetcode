@@ -2,13 +2,13 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-402 solved problems from 13 categories:
+403 solved problems from 13 categories:
 * [Array And Hashtable](#array-and-hashtable) - 59 problems
 * [Backtracking](#backtracking) - 33 problems
 * [Binary Search](#binary-search) - 19 problems
 * [Concurrency](#concurrency) - 3 problems
 * [Database](#database) - 7 problems
-* [Design](#design) - 17 problems
+* [Design](#design) - 18 problems
 * [Dynamic Programming](#dynamic-programming) - 42 problems
 * [Linkedlist](#linkedlist) - 25 problems
 * [Math](#math) - 26 problems
@@ -177,6 +177,7 @@ Index | Problem Description | My Solution |
 15 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [LRUCache.java](./src/leetcode/design/LRUCache.java)
 16 | [Product of the Last K Numbers](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/) | [ProductOfTheLastKNumbers.java](./src/leetcode/design/ProductOfTheLastKNumbers.java)
 17 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [RangeSumQueryMutable.java](./src/leetcode/design/RangeSumQueryMutable.java)
+18 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | [ShuffleAnArray.java](./src/leetcode/design/ShuffleAnArray.java)
 
 ## Dynamic Programming
 Index | Problem Description | My Solution |
@@ -328,8 +329,8 @@ Index | Problem Description | My Solution |
 40 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [ReverseBits.java](./src/leetcode/others/ReverseBits.java)
 41 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [RottingOranges.java](./src/leetcode/others/RottingOranges.java)
 42 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [ShortestPathInBinaryMatrix.java](./src/leetcode/others/ShortestPathInBinaryMatrix.java)
-43 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
-44 | [Single Number](https://leetcode.com/problems/single-number/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
+43 | [Single Number](https://leetcode.com/problems/single-number/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
+44 | [Single Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/) | [SingleNumber.java](./src/leetcode/others/SingleNumber.java)
 45 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [SortColors.java](./src/leetcode/others/SortColors.java)
 46 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | [SortAnArray.java](./src/leetcode/others/SortAnArray.java)
 47 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [SurroundedRegions.java](./src/leetcode/others/SurroundedRegions.java)
