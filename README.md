@@ -2,7 +2,7 @@
 
 (This item is generated with [update-readme.py](./update-readme.py).)
 
-408 solved problems from 13 categories:
+409 solved problems from 13 categories:
 * [Array And Hashtable](#array-and-hashtable) - 64 problems
 * [Backtracking](#backtracking) - 33 problems
 * [Binary Search](#binary-search) - 19 problems
@@ -11,7 +11,7 @@
 * [Design](#design) - 18 problems
 * [Dynamic Programming](#dynamic-programming) - 42 problems
 * [Linkedlist](#linkedlist) - 25 problems
-* [Math](#math) - 26 problems
+* [Math](#math) - 27 problems
 * [Others](#others) - 53 problems
 * [Stack](#stack) - 14 problems
 * [String](#string) - 18 problems
@@ -268,26 +268,27 @@ Index | Problem Description | My Solution |
 4 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [CheckIfItIsStraightLine.java](./src/leetcode/math/CheckIfItIsStraightLine.java)
 5 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [CountNumbersWithUniqueDigits.java](./src/leetcode/math/CountNumbersWithUniqueDigits.java)
 6 | [Count Primes](https://leetcode.com/problems/count-primes/) | [CountPrimes.java](./src/leetcode/math/CountPrimes.java)
-7 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [ExcelSheetColumnNumber.java](./src/leetcode/math/ExcelSheetColumnNumber.java)
-8 | [Happy Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/) | [HappyNumber.java](./src/leetcode/math/HappyNumber.java)
-9 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [IntegerToRoman.java](./src/leetcode/math/IntegerToRoman.java)
-10 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [LargestPerimeterTriangle.java](./src/leetcode/math/LargestPerimeterTriangle.java)
-11 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | [LargestTimeForGivenDigits.java](./src/leetcode/math/LargestTimeForGivenDigits.java)
-12 | [Missing Number](https://leetcode.com/problems/missing-number/) | [MissingNumber.java](./src/leetcode/math/MissingNumber.java)
-13 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [PalindromeNumber.java](./src/leetcode/math/PalindromeNumber.java)
-14 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [PowerOfFour.java](./src/leetcode/math/PowerOfFour.java)
-15 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [PowerOfThree.java](./src/leetcode/math/PowerOfThree.java)
-16 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [PowerOfTwo.java](./src/leetcode/math/PowerOfTwo.java)
-17 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [RectangleArea.java](./src/leetcode/math/RectangleArea.java)
-18 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | [RectangleOverlap.java](./src/leetcode/math/RectangleOverlap.java)
-19 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [ReverseInteger.java](./src/leetcode/math/ReverseInteger.java)
-20 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [RomanToInteger.java](./src/leetcode/math/RomanToInteger.java)
-21 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [RotateImage.java](./src/leetcode/math/RotateImage.java)
-22 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Sqrt.java](./src/leetcode/math/Sqrt.java)
-23 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [StringToIntegerAtoi.java](./src/leetcode/math/StringToIntegerAtoi.java)
-24 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | [SumOfSquareNumbers.java](./src/leetcode/math/SumOfSquareNumbers.java)
-25 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | [TheKthFactorOfN.java](./src/leetcode/math/TheKthFactorOfN.java)
-26 | [ValidPerfectSquare](https://leetcode.com/problems/valid-perfect-square/) | [ValidPerfectSquare.java](./src/leetcode/math/ValidPerfectSquare.java)
+7 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | [DivisibleAndNonDivisibleSumsDifference.java](./src/leetcode/math/DivisibleAndNonDivisibleSumsDifference.java)
+8 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [ExcelSheetColumnNumber.java](./src/leetcode/math/ExcelSheetColumnNumber.java)
+9 | [Happy Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3284/) | [HappyNumber.java](./src/leetcode/math/HappyNumber.java)
+10 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [IntegerToRoman.java](./src/leetcode/math/IntegerToRoman.java)
+11 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [LargestPerimeterTriangle.java](./src/leetcode/math/LargestPerimeterTriangle.java)
+12 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | [LargestTimeForGivenDigits.java](./src/leetcode/math/LargestTimeForGivenDigits.java)
+13 | [Missing Number](https://leetcode.com/problems/missing-number/) | [MissingNumber.java](./src/leetcode/math/MissingNumber.java)
+14 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [PalindromeNumber.java](./src/leetcode/math/PalindromeNumber.java)
+15 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [PowerOfFour.java](./src/leetcode/math/PowerOfFour.java)
+16 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [PowerOfThree.java](./src/leetcode/math/PowerOfThree.java)
+17 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [PowerOfTwo.java](./src/leetcode/math/PowerOfTwo.java)
+18 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [RectangleArea.java](./src/leetcode/math/RectangleArea.java)
+19 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | [RectangleOverlap.java](./src/leetcode/math/RectangleOverlap.java)
+20 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [ReverseInteger.java](./src/leetcode/math/ReverseInteger.java)
+21 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [RomanToInteger.java](./src/leetcode/math/RomanToInteger.java)
+22 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [RotateImage.java](./src/leetcode/math/RotateImage.java)
+23 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Sqrt.java](./src/leetcode/math/Sqrt.java)
+24 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [StringToIntegerAtoi.java](./src/leetcode/math/StringToIntegerAtoi.java)
+25 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | [SumOfSquareNumbers.java](./src/leetcode/math/SumOfSquareNumbers.java)
+26 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | [TheKthFactorOfN.java](./src/leetcode/math/TheKthFactorOfN.java)
+27 | [ValidPerfectSquare](https://leetcode.com/problems/valid-perfect-square/) | [ValidPerfectSquare.java](./src/leetcode/math/ValidPerfectSquare.java)
 
 ## Others
 Index | Problem Description | My Solution |
