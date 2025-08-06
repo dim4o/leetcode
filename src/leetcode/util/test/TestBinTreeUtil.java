@@ -11,15 +11,8 @@ import org.junit.jupiter.api.Test;
 
 import leetcode.util.tree.TreeNode;
 
-
 class TestBinTreeUtil {
-    private class Pair<E> {
-        final E input;
-        final E expected;
-        public Pair(E input, E expected) {
-            this.input = input;
-            this.expected = expected;
-        }
+    private record Pair<E>(E input, E expected) {
     }
     
     private List<Integer> toList(Integer... values) {
@@ -30,7 +23,7 @@ class TestBinTreeUtil {
     void test() {
         List<Pair<List<Integer>>> pairs = new ArrayList<>();
         pairs.add(new Pair<>(
-                toList(10, 5, 15, null, null, 6, 20), 
+                toList(10, 5, 15, null, null, 6, 20),
                 toList(5, 10, 6, 15, 20)));
         
         pairs.add(new Pair<>(
@@ -38,7 +31,7 @@ class TestBinTreeUtil {
                 toList(1, 2, 3)));
         
         pairs.add(new Pair<>(
-                toList(5, 1, 4,null, null, 3, 6),
+                toList(5, 1, 4, null, null, 3, 6),
                 toList(1, 5, 3, 4, 6)));
         
         pairs.add(new Pair<>(
@@ -61,13 +54,11 @@ class TestBinTreeUtil {
             List<Integer> input = pair.input;
             List<Integer> expected = pair.expected;
             
-            Integer[] inputvalues = (Integer[]) input.toArray();
-            TreeNode rootNode = initTree(inputvalues);
+            Integer[] inputValues = input.toArray(Integer[]::new);
+            TreeNode rootNode = initTree(inputValues);
             List<Integer> actual = getInorder(rootNode);
             
             Assertions.assertEquals(actual, expected);
         }
-
     }
-
 }
